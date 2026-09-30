@@ -1,0 +1,14 @@
+### 1.4.2. Objetivos específicos
+
+* Permitir crear y gestionar grupos de personas que comparten una vivienda o gastos comunes.
+* Permitir registrar las compras realizadas, incluyendo los productos, sus precios y la persona que ha realizado la compra.
+* Permitir indicar qué personas participan en el coste de cada producto.
+* Permitir diferenciar entre productos de uso común y productos destinados exclusivamente a determinados miembros del grupo.
+* Calcular automáticamente la cantidad que corresponde pagar a cada persona según su participación en los productos adquiridos.
+* Mantener un registro de los gastos realizados durante un período determinado.
+* Permitir establecer períodos de liquidación de los gastos, como semanal, quincenal o mensual.
+* Mostrar de forma clara los saldos entre los miembros del grupo, indicando cuánto debe aportar o recibir cada persona.
+* Facilitar la liquidación de los gastos acumulados al finalizar el período establecido.
+* Reducir la necesidad de realizar cálculos manuales y evitar errores en el reparto de los gastos.
+* Proporcionar una interfaz sencilla e intuitiva que facilite el registro y consulta de las compras.
+* Garantizar que la información de los gastos y de los miembros del grupo se gestione de forma organizada y segura.
