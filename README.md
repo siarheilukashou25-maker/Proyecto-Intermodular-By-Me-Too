@@ -126,7 +126,7 @@ ANEXOS
 
 ## 🔗 Repositorio del código
 
-El código fuente de la aplicación se encuentra en un **repositorio independiente**.
+El código fuente de la aplicación se encuentra en un [**repositorio independiente**](https://github.com/siarheilukashou25-maker/By-Me-Too).
 
 Este repositorio está destinado principalmente a la **documentación, gestión de tareas y materiales relacionados con el proyecto**, mientras que el otro repositorio contiene el desarrollo de la aplicación.
 
