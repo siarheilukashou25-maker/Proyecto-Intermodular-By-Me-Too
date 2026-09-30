@@ -64,4 +64,27 @@ La aplicación permitirá:
 * Añadir / Quitar productos 
 * Dividir gastos 
 
-#
+# 4. Objetivos de la aplicación
+
+El objetivo principal de **By Me Too!** es facilitar la gestión de compras compartidas mediante una cesta virtual en la que varios usuarios puedan colaborar y gestionar los productos y sus gastos.
+
+## 4.1. Objetivo general
+
+> **Desarrollar una aplicación que permita gestionar de forma colaborativa una cesta de compra y distribuir sus gastos entre los usuarios que participan en ella.**
+
+## 4.2. Objetivos específicos
+
+* **Crear y gestionar cestas de compra** para diferentes situaciones, como compras familiares, pisos compartidos, cumpleaños, barbacoas o cualquier otro evento.
+
+* **Permitir añadir, modificar y eliminar productos** de una cesta de forma sencilla.
+
+* **Permitir que varios usuarios participen en una misma cesta**, pudiendo consultar y modificar su contenido.
+
+* **Mantener la información de la cesta actualizada entre los usuarios**, evitando tener que utilizar diferentes medios de comunicación para indicar qué productos hay que comprar.
+
+* **Calcular y dividir el coste total de la compra** entre los usuarios que participan en ella.
+
+* **Permitir asignar productos a determinados usuarios**, de manera que el coste de un producto pueda repartirse únicamente entre las personas que lo van a consumir.
+
+* **Facilitar la organización de compras compartidas**, reduciendo los problemas relacionados con productos olvidados y con el reparto de los gastos.
+
