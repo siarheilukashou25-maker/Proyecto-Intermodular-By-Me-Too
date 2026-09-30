@@ -135,5 +135,7 @@ Este repositorio está destinado principalmente a la **documentación, gestión 
 ## 🎓 Proyecto
 
 **Ciclo:** Desarrollo de Aplicaciones Multiplataforma (DAM)
+
 **Módulo:** Proyecto Intermodular DAM
-**Asignaturas relacionadas:** Proyecto Intermodular y Diseño de Interfaces
+
+
