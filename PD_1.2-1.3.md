@@ -88,3 +88,24 @@ El objetivo principal de **By Me Too!** es facilitar la gestión de compras comp
 
 * **Facilitar la organización de compras compartidas**, reduciendo los problemas relacionados con productos olvidados y con el reparto de los gastos.
 
+# 5. Metodología utilizada para el estudio del problema
+
+Para detectar y analizar el problema se ha utilizado una metodología basada principalmente en la **observación de situaciones reales y la recogida de información de usuarios potenciales**.
+
+En primer lugar, se analizaron diferentes situaciones en las que varias personas necesitan realizar una compra de forma conjunta, como pueden ser **familias, compañeros de piso o grupos que organizan eventos**.
+
+Posteriormente, se recogió información de usuarios potenciales para conocer sus necesidades y comprobar si las dificultades detectadas también se producían en otras personas.
+
+A partir de la información obtenida se identificaron principalmente dos necesidades:
+
+* Gestionar una cesta de compra de forma colaborativa.
+* Gestionar y repartir los gastos de la compra entre los usuarios que participan en ella.
+
+Finalmente, se analizaron las necesidades obtenidas y se seleccionaron aquellas que podían ser solucionadas mediante una aplicación, dando lugar a la propuesta de **By Me Too!**.
+
+### Técnicas utilizadas
+
+* **Observación:** análisis de situaciones reales relacionadas con la realización de compras compartidas.
+* **Encuesta:** recogida de opiniones y necesidades de usuarios potenciales.
+* **Análisis de necesidades:** identificación y selección de los problemas que la aplicación puede solucionar.
+
