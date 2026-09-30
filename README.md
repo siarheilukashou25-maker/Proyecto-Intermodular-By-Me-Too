@@ -60,7 +60,7 @@ De esta forma, es posible consultar únicamente las tareas relacionadas con una 
 Cada tarea sigue una nomenclatura específica en función de la asignatura a la que pertenece:
 
 * **DI-** → tareas relacionadas con **Diseño de Interfaces**.
-* **PI-** → tareas relacionadas con **Proyecto Intermodular**.
+* **PD-** → tareas relacionadas con **Proyecto Intermodular**.
 
 Esta nomenclatura permite identificar rápidamente a qué asignatura corresponde cada tarea.
 
