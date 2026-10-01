@@ -1,4 +1,4 @@
-# PD-1.6. Limitaciones y exclusiones
+# 1.6. Limitaciones y exclusiones
 Para el desarrollo y ejecución de este proyecto es importante saber los límites en los que se trabajará alrededor y que exclusiones y sacrificios son necesarios hacer para llegar a cumplir los requisitos esenciales. Algunos de los factores imfluyentes serán:
 
 - Límite de tiempo: Está establecido que duración de desarrollo será entre el 21 de Septiembre hasta el 22 de Febrero de 2027.
@@ -9,7 +9,4 @@ Para el desarrollo y ejecución de este proyecto es importante saber los límite
 
 - Falta de experiencia: Al ser la primera vez que se trabaja en un proyecto de esta escala y complejidad habrá que lidiar y aprender de los posibles errores que se cometan para tener una buena metodología de trabajo.
 
-En consecuencia, debido a la inexperiencia con algunas de las tecnologías algunas de las funciones que se han excluido son:
-
--
-
+En adición, se ha descartado incluir la función de hacer pagos desde la aplicación.
