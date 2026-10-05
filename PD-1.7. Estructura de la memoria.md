@@ -14,7 +14,7 @@
 | **Autor/es** | Pablo, Roberto, Searhei , Elias |
 | **Grado** | Desarrollo De Aplicaciones Multiplataforma |
 | **Curso académico** | 2026/2027 |
-| **Tecnologías** | Java,NetBeans,Git,Github,Scrum,Firebase,Figma |
+| **Tecnologías** | Lenguaje: Java, IDE: NetBeans, CONTROL DE VERSIONES: Git, REPOSITORIO: Github ,ORGANIZACION: Scrum, BASE DE DATOS: Firebase, MAQUETADO: Figma |
 | **Versión** | 1.0 |
  
 ### 1.1. Descripción general
