@@ -17,3 +17,12 @@
 | **Tecnologías** | Java |
 | **Versión** | 1.0 |
  
+### 1.1. Descripción general
+ 
+By Me Too es una aplicación pensada para estudiantes que comparten piso. Permite registrar los gastos comunes (alquiler, luz, agua, internet, compra, limpieza...), repartirlos entre los compañeros y saber en todo momento quién debe dinero a quién.
+ 
+### 1.2. Problema que resuelve
+ 
+Compartir piso genera cuentas confusas: se pierden tickets, se olvida quién pagó qué y aparecen discusiones por dinero. La aplicación centraliza toda esa información en un único lugar.
+ 
+---
