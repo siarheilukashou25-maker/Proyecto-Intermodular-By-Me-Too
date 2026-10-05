@@ -14,7 +14,7 @@
 | **Autor/es** | Pablo, Roberto, Searhei , Elias |
 | **Grado** | Desarrollo De Aplicaciones Multiplataforma |
 | **Curso académico** | 2026/2027 |
-| **Tecnologías** | Java |
+| **Tecnologías** | Java,NetBeans,Git,Github,Scrum,Firebase,Figma |
 | **Versión** | 1.0 |
  
 ### 1.1. Descripción general
