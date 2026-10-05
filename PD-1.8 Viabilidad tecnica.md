@@ -26,12 +26,13 @@ Se ha deteminado que serán necesarios:
 - (Comunicación) Discord/Whatsapp
 
 #### Barreras para el éxito del proyecto:
-Capital necesario, costes de mano de obra, etc...
+Capital necesario, costes de mano de obra, riesgos técnicos, etc...
 
-#### Análisis preliminar optimsta y realista
+#### Justificación e Integración Intermodular
+
 -----
 ### Resultados previstos:
-Ingresos previstos respecto a los gastos(materiales,mano de obra,transporte,ubicación física, herramientas tecnológicas,mantenimiento)
+Ingresos previstos respecto a los gastos(materiales,mano de obra,transporte,Costes Operativos e Indirectos, ubicación física, Costes de Infraestructura y Licencias,mantenimiento,)
 
 ---------
 ### Encuesta de mercado:
@@ -39,7 +40,7 @@ Proyectos similares(fortalezas,debilidades,precios,marketing,calidad,lealtad)
 Considerar tendencias demográficas, culturas,ingresos.
 
 --------------
-### Plan de negocios:
+### Decisión siguiendo el Plan de negocios:
 - Organigrama: donde se evidencien los roles de trabajo. 
 - Mercadeo y comercialización: las estrategias para dar a conocer el proyecto. 
 - Ubicación o posibles ubicaciones del proyecto. 
@@ -49,5 +50,3 @@ Considerar tendencias demográficas, culturas,ingresos.
 - Gastos generales como seguros, impuestos, préstamos y servicios públicos. 
 - Costos durante la operación, en caso de que aplique.
 
----------------
-### Decisión
