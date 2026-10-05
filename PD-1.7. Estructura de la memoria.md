@@ -11,7 +11,7 @@
 | **Nombre** | By Me Too |
 | **Tipo de proyecto** | Aplicación móvil / web |
 | **Ámbito** | Gestión de gastos compartidos en pisos |
-| **Autor/es** | Pablo | Roberto | Searhei | Elias |
+| **Autor/es** | Pablo, Roberto, Searhei,Elias |
 | **Grado** | Desarrollo De Aplicaciones Multiplataforma |
 | **Curso académico** | 2026/2027 |
 | **Tecnologías** | Java |
