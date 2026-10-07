@@ -8,3 +8,9 @@ Vivir fuera del núcleo familiar es una necesidad económica estructural:
 - **Emancipación tardía:** Supera los **30,2 años** y solo el **14,5 %** está emancipado (Consejo de la Juventud, 2025). Un **48 %** de 25 a 34 años vive con sus padres (frente al 30 % en la UE).
 - **Precio y oferta:** El precio medio de una habitación es de **425 €/mes** (+19 % en oferta en 2025, idealista).
 - **Perfil:** El **44 %** tiene de 18 a 24 años y el **31,1 %** supera los 35 (se comparte por obligación ante alquileres altos y precariedad).
+
+### 1.1.3. Nivel doméstico: la compra como gasto frecuente
+La compra es el gasto más recurrente y mezclado del hogar. Según nuestra encuesta (**N = 75**, `docs/AnálisisDeMercado.md`):
+- **Frecuencia:** El **66,7 %** compra semanalmente y el **90 %** cada 2–7 días (97 % de forma presencial).
+- **Listas y despistes:** El **71 %** hace lista (48,5 % en libreta compartida, 24,2 % en chat), pero el **82,7 %** olvida productos por no llevarla completa. El **21,3 %** no usa ninguna herramienta.
+- **Preferencias:** Mercadona encabeza con un **92 %**. El **80 %** tiene entre 19 y 40 años (70 % estudiantes o recién titulados).
