@@ -14,3 +14,17 @@ La compra es el gasto más recurrente y mezclado del hogar. Según nuestra encue
 - **Frecuencia:** El **66,7 %** compra semanalmente y el **90 %** cada 2–7 días (97 % de forma presencial).
 - **Listas y despistes:** El **71 %** hace lista (48,5 % en libreta compartida, 24,2 % en chat), pero el **82,7 %** olvida productos por no llevarla completa. El **21,3 %** no usa ninguna herramienta.
 - **Preferencias:** Mercadona encabeza con un **92 %**. El **80 %** tiene entre 19 y 40 años (70 % estudiantes o recién titulados).
+
+### 1.1.4. Nivel tecnológico y sectorial: el nicho de mercado
+Aunque el smartphone organiza la vida diaria, la gestión doméstica sigue haciéndose en libretas, chats o de cabeza. En este escenario, **By Me Too!** se posiciona en la intersección entre listas de la compra y finanzas personales, resolviendo los huecos del mercado:
+
+| Tipo de empresa | Ejemplos | Qué ofrecen | Qué **no** resuelve para nuestro público |
+|---|---|---|---|
+| **Reparto de gastos** | Splitwise, Tricount | App de gastos y deudas | Reparten por gasto total; el desglose por producto es de pago o manual. **No gestionan listas**. |
+| **Listas de compra** | Bring! Labs, Listonic | Listas compartidas en tiempo real (Bring! con >21M de usuarios) | **No reparten gastos** entre los miembros. |
+| **Grandes tecnológicas** | Google Keep, Apple, WhatsApp | Notas, listas y chat genéricos | Herramientas genéricas (el 24,2 % usa chats). |
+| **Distribución minorista** | Mercadona, Dia | Compra online, cupones y fidelización | Enfocadas en su tienda y un solo comprador; sin grupo ni reparto. |
+
+**Nuestra solución:** Ninguna herramienta une **lista compartida + reparto por producto** adaptada a un grupo de iguales. El proyecto consiste en el desarrollo de una aplicación móvil para administrar compras compartidas entre compañeros de piso, estructurada en dos bloques:
+1. **Administración integral** de perfiles y colectivos de convivencia (incluyendo recomendación de productos según el nivel económico de los usuarios).
+2. **Registro detallado de tiques** y liquidación automática de cuentas entre los miembros.
