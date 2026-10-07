@@ -28,3 +28,31 @@ Aunque el smartphone organiza la vida diaria, la gestión doméstica sigue haci�
 **Nuestra solución:** Ninguna herramienta une **lista compartida + reparto por producto** adaptada a un grupo de iguales. El proyecto consiste en el desarrollo de una aplicación móvil para administrar compras compartidas entre compañeros de piso, estructurada en dos bloques:
 1. **Administración integral** de perfiles y grupos de convivencia (incluyendo recomendación de productos según el nivel económico de los usuarios).
 2. **Registro detallado de tiques** y liquidación automática de cuentas entre los miembros.
+
+### 1.1.5. La empresa tipo del proyecto: estructura y funciones
+
+By Me Too! adopta la estructura de una **startup de software** con metodología **Scrum** (roles rotativos entre el equipo):
+
+```text
+
+                 ┌─────────────────────────────┐
+                 │        Scrum Master         │
+                 └──────────────┬──────────────┘
+        ┌──────────────┬────────┴──┬──────────────┬──────────────┐
+┌───────▼──────┐┌──────▼───────┐┌─────▼──────┐┌──────▼──────┐┌──────▼───────┐
+│ Diseño UX/UI ││  Front-end   ││  Back-end  ││     QA      ││ Marketing y  │
+│ Figma, Base44││ Interfaz app ││ (Firebase) ││ Smoke tests ││ comunidad    │
+└──────────────┘└──────────────┘└────────────┘└─────────────┘└──────────────┘
+        Administración, fiscalidad y laboral: gestoría externa
+```
+
+| rol | Funciones principales | Evidencia en el proyecto |
+|---|---|---|
+| **Dirección / Product Owner** | Definir visión, priorizar backlog y validar entregas | Project «By Me Too!», encuesta de mercado |
+| **Scrum Master** | Facilitar ceremonias y eliminar bloqueos | 8 sprints planificados en el Project |
+| **Diseño UX/UI** | Investigación de usuario y prototipado | Wireframe, Figma y Base44 |
+| **Desarrollo front-end** | Construcción de la interfaz | `LoginWindow` y `MainWindow` |
+| **Desarrollo back-end** | Lógica de reparto y persistencia de datos | Esqueleto MVC, capa de datos en Firebase |
+| **QA** | Pruebas y control de calidad | Documento de smoke test |
+| **Marketing y comunidad** | Difusión en redes sociales | Estrategia de lanzamiento |
+| **Administración (externa)** | Obligaciones fiscales y laborales | Gestoría externa |
