@@ -1,12 +1,19 @@
-# 1.6. Limitaciones y exclusiones
-Para el desarrollo y ejecución de este proyecto es importante saber los límites en los que se trabajará alrededor y que exclusiones y sacrificios son necesarios hacer para llegar a cumplir los requisitos esenciales. Algunos de los factores imfluyentes serán:
+## 6. Limitaciones y exclusiones
 
-- Límite de tiempo: Está establecido que duración de desarrollo será entre el 21 de Septiembre hasta el 22 de Febrero de 2027.
+### 6.1. Limitaciones
 
-- Plazos mínimos a cumplir: Para la evaluación por parte del docente es necesaria presentar y justificar el progreso en tiempos determinados.
+| Limitación | Descripción | Medida para mitigarla |
+|---|---|---|
+| **Tiempo** | Desarrollo acotado del 21/09/2026 al 22/02/2027, compartido con otros módulos | Trabajar siguiendo la metodología SCRUM con Sprints de unas dos semanas |
+| **Aprendizaje simultáneo** | Tecnologías nuevas aprendidas a la vez que se implementan | Afirmar y practicar los conceptos aprendidos antes de aplicarlos |
+| **Falta de experiencia** | Primer proyecto de esta escala para el equipo | Retrospectivas, revisión por PR y roles rotativos |
+| **Equipo reducido** | Cuatro personas cubren todos los roles | Reparto claro de responsabilidades en el Project |
+| **Recursos económicos** | Sin financiación: solo herramientas gratuitas | Aprovechar planes gratuitos; Usar los recursos ofrecidos |
 
-- Implementación con conocimientos nuevos aprendidos en tiempo real: Será necesario trabajar e implementar conceptos y tecnologías a la vez que se conocen lo que puede implicar dificultades.
+### 6.2. Exclusiones (fuera del alcance de la versión 1.0)
 
-- Falta de experiencia: Al ser la primera vez que se trabaja en un proyecto de esta escala y complejidad habrá que lidiar y aprender de los posibles errores que se cometan para tener una buena metodología de trabajo.
-
-En adición, se ha descartado incluir la función de hacer pagos desde la aplicación.
+- **Pagos dentro de la aplicación:** Descartado. La app calcula y muestra los saldos; el pago se hace por fuera (efectivo, Bizum, transferencia). Evita además la regulación financiera de servicios de pago.
+- **Escaneo OCR de tickets:** Integración en versión futura. No aprenderemos los conocimientos necesarios para este concepto.
+- **Integración con catálogos o precios de supermercados:** Integración en versión futura. Complejidad y falta de recursos para la integración en este momento.
+- **Multimoneda e internacionalización:** Solo euros, idioma español integrado y distribuición en España en la versión 1.0. 
+- **Multiplataformas:** Prioridad dada a aplicaciones de móvil.
