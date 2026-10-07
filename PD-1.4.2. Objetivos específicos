@@ -1,14 +1,89 @@
 ### 1.4.2. Objetivos específicos
 
-* Permitir crear y gestionar grupos de personas que comparten una vivienda o gastos comunes.
-* Permitir registrar las compras realizadas, incluyendo los productos, sus precios y la persona que ha realizado la compra.
-* Permitir indicar qué personas participan en el coste de cada producto.
-* Permitir diferenciar entre productos de uso común y productos destinados exclusivamente a determinados miembros del grupo.
-* Calcular automáticamente la cantidad que corresponde pagar a cada persona según su participación en los productos adquiridos.
-* Mantener un registro de los gastos realizados durante un período determinado.
-* Permitir establecer períodos de liquidación de los gastos, como semanal, quincenal o mensual.
-* Mostrar de forma clara los saldos entre los miembros del grupo, indicando cuánto debe aportar o recibir cada persona.
-* Facilitar la liquidación de los gastos acumulados al finalizar el período establecido.
-* Reducir la necesidad de realizar cálculos manuales y evitar errores en el reparto de los gastos.
-* Proporcionar una interfaz sencilla e intuitiva que facilite el registro y consulta de las compras.
-* Garantizar que la información de los gastos y de los miembros del grupo se gestione de forma organizada y segura.
+Los objetivos específicos desglosan el objetivo general en **logros concretos, observables y medibles**, ordenados por fases. Cada uno se redacta como una **acción**, indica **para qué** se hace y **cómo** se consigue, y lleva un **indicador** que permite comprobar si se ha cumplido.
+
+**Fase 1. Planificación (Sprints 1–2).** En esta fase se tienen en cuenta la validación con usuarios reales, la delimitación del MVP, los plazos del centro y los recursos del equipo.
+
+*Tabla 14. Objetivos específicos: fase de planificación.*
+
+| ID | Acción | Para qué | Cómo | Indicador |
+|---|---|---|---|---|
+| OE-P1 | Validar la necesidad del producto | Orientar el MVP a lo que el usuario demanda | Encuesta en Google Forms al público objetivo | ≥ 50 respuestas. **Conseguido: 75** |
+| OE-P2 | Priorizar el problema principal y definir el MVP | Concentrar el esfuerzo en el valor diferencial | Matriz de priorización con datos de la encuesta y de la competencia | Problema y MVP documentados. **Conseguido (1.2.6)** |
+| OE-P3 | Elaborar el Product Backlog | Disponer de un plan de trabajo trazable | Issues en GitHub Projects con etiquetas PD- y DI-, responsable y estimación | 100 % de las tareas con responsable y estimación |
+| OE-P4 | Planificar los 8 sprints con fechas y entregables | Cumplir los hitos de evaluación | Calendario de sprints en el tablero | Calendario publicado. **Conseguido (1.7)** |
+| OE-P5 | Analizar la viabilidad técnica, económica y legal | Confirmar que el proyecto es realizable y sostenible | Estudio de factibilidad: arquitectura, riesgos, presupuesto, normativa | Capítulo 2 entregado en el Sprint 2 |
+| OE-P6 | Seleccionar las tecnologías de interfaz y de datos | Elegir con criterios objetivos | Comparativas técnicas (AWT/Swing/JavaFX; bases de datos) | Swing elegido (24/09/2026); base de datos elegida antes del Sprint 3 |
+
+**Fase 2. Desarrollo (Sprints 3–6).** En esta fase se tienen en cuenta la facilidad de uso en el supermercado, la concurrencia entre varios usuarios, la precisión del cálculo y la protección de los datos.
+
+*Tabla 15. Objetivos específicos: fase de desarrollo.*
+
+| ID | Acción | Para qué | Cómo | Indicador |
+|---|---|---|---|---|
+| OE-D1 | Diseñar los prototipos de todas las pantallas | Validar la experiencia antes de programar | Wireframe, Figma y Base44 | Flujo completo prototipado. **Conseguido** |
+| OE-D2 | Implementar el registro, el inicio de sesión y la gestión de grupos | Identificar a los miembros de cada grupo | Autenticación y modelo de usuario y grupo | Un usuario crea un grupo e invita a otro |
+| OE-D3 | Implementar la lista compartida en tiempo real | Eliminar la lista dispersa y los olvidos | Sincronización con la base de datos en la nube | Los cambios se ven en otro dispositivo en ≤ 2 s |
+| OE-D4 | Implementar el registro de compras | Registrar el comprador, el precio y los participantes | Formulario de compra vinculado a la lista | Compra de 5 productos registrada en ≤ 60 s |
+| OE-D5 | Programar el algoritmo de reparto común, personal y parcial | Repartir el coste de forma justa | Lógica de negocio en la capa de modelo con control de céntimos y redondeos | 0 errores en los casos de prueba |
+| OE-D6 | Implementar el balance y la liquidación por periodos | Saldar las cuentas sin deudas olvidadas | Cálculo de saldos semanal, quincenal, mensual o personalizado | Saldo correcto de cada miembro al cerrar el periodo |
+| OE-D7 | Proteger los datos personales | Cumplir el RGPD y la LOPDGDD [8], [9] | Minimización de datos, reglas de acceso por grupo, política de privacidad | Reglas de acceso definidas y política redactada |
+| OE-D8 | Mantener un código limpio y versionado | Facilitar el trabajo en equipo y el mantenimiento | Ramas por miembro, revisión mediante Pull Request, patrón MVC | 100 % de las integraciones en `main` mediante PR |
+
+**Fase 3. Pruebas (de forma continua, con foco en los Sprints 6–7).** En esta fase se tienen en cuenta la estabilidad de cada build, los casos límite del reparto y la opinión de usuarios reales.
+
+*Tabla 16. Objetivos específicos: fase de pruebas.*
+
+| ID | Acción | Para qué | Cómo | Indicador |
+|---|---|---|---|---|
+| OE-T1 | Ejecutar un smoke test en cada build | Detectar fallos críticos antes de seguir probando | Checklist del documento de smoke test | 100 % de los puntos críticos superados |
+| OE-T2 | Automatizar las pruebas unitarias del reparto | Garantizar cálculos correctos | JUnit con casos límite: un participante, céntimos indivisibles, productos sin precio | Cobertura ≥ 80 % del módulo de reparto |
+| OE-T3 | Realizar pruebas de integración y de extremo a extremo | Validar el flujo completo | Lista, compra, reparto y balance con 4 usuarios | Flujo completo sin errores |
+| OE-T4 | Evaluar la usabilidad | Comprobar que la aplicación es fácil de usar | Prueba con usuarios del público objetivo y cuestionario SUS | Puntuación SUS ≥ 70 |
+| OE-T5 | Controlar la regresión | Evitar que una corrección rompa otra función | Registro de incidencias en la columna «To Fix» del tablero | 0 bugs críticos abiertos en la entrega |
+
+**Fase 4. Distribución (Sprints 7–8).** En esta fase se tienen en cuenta los requisitos de las tiendas, la documentación para el usuario y la captación de los primeros usuarios.
+
+*Tabla 17. Objetivos específicos: fase de distribución.*
+
+| ID | Acción | Para qué | Cómo | Indicador |
+|---|---|---|---|---|
+| OE-X1 | Desplegar una versión estable para un grupo piloto | Validar el producto en uso real | Build firmada y entorno de producción separado del de pruebas | Versión 1.0 instalada por el grupo piloto |
+| OE-X2 | Preparar la publicación en Google Play y App Store | Llegar a los dos sistemas que usa el público | Cuentas de desarrollador, ficha de la tienda y política de privacidad | Ficha y build listas para revisión |
+| OE-X3 | Redactar los manuales de instalación, técnico y de usuario | Permitir que otra persona instale y use el sistema | Manuales con capturas de la versión final | Capítulo 9 entregado |
+| OE-X4 | Lanzar una campaña inicial | Captar a los primeros usuarios | Redes sociales y boca a boca en entornos universitarios | KPI de distribución medidos |
+| OE-X5 | Recoger el feedback y definir las líneas futuras | Planificar la evolución del producto | Encuesta al piloto y backlog de la versión 2 | Backlog de la versión 2 priorizado |
+
+### 1.4.3. Indicadores clave de rendimiento (KPI)
+
+Los valores objetivo son las metas que se fija el equipo y se revisarán en cada Sprint Review.
+
+*Tabla 18. KPI de producto.*
+
+| KPI | Definición | Objetivo |
+|---|---|---|
+| Precisión del reparto | Repartos cuya suma coincide al céntimo con el total del ticket | 100 % |
+| Tiempo de registro | Tiempo medio en registrar una compra de 5 productos con su reparto | ≤ 60 s |
+| Activación | Usuarios que, en su primera semana, se unen a un grupo y registran una compra | ≥ 60 % 
+| Retención a 30 días | Grupos piloto que siguen registrando compras al cabo de 30 días | ≥ 40 % |
+| Periodos liquidados | Periodos cerrados con todos los saldos a cero | ≥ 70 % |
+
+
+*Tabla 19. KPI de proyecto.*
+
+| KPI | Definición | Objetivo |
+|---|---|---|
+| Cumplimiento del sprint | Tareas en Done respecto a las comprometidas | ≥ 80 % (Sprint 1: 17 de 20, el **85 %**) |
+| Entregas en plazo | Sprint Reviews entregadas en la fecha prevista | 100 % |
+| Calidad de la build | Smoke tests superados respecto a los ejecutados | 100 % |
+| Bugs críticos | Bugs críticos abiertos en cada entrega | 0 |
+| Trazabilidad | Commits y PR vinculados a un issue | ≥ 90 % |
+
+*Tabla 20. KPI de distribución (prueba piloto).*
+
+| KPI | Definición | Objetivo |
+|---|---|---|
+| Usuarios piloto | Usuarios activos durante la prueba piloto | ≥ 10 |
+| Grupos activos | Grupos con al menos una compra semanal | ≥ 2 |
+| Valoración | Nota media del feedback (escala de 1 a 5) | ≥ 4.5 |
+| Conversión de la encuesta | Encuestados interesados que instalan la aplicación | ≥ 30 % |
