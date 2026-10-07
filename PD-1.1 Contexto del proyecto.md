@@ -21,7 +21,7 @@ Aunque el smartphone organiza la vida diaria, la gestión doméstica sigue haci�
 | Tipo de empresa | Ejemplos | Qué ofrecen | Qué **no** resuelve para nuestro público |
 |---|---|---|---|
 | **Reparto de gastos** | Splitwise, Tricount | App de gastos y deudas | Reparten por gasto total; el desglose por producto es de pago o manual. **No gestionan listas**. |
-| **Listas de compra** | Bring! Labs, Listonic | Listas compartidas en tiempo real (Bring! con >21M de usuarios) | **No reparten gastos** entre los miembros. |
+| **Listas de compra** | Bring! , Listonic | Listas compartidas en tiempo real (Bring! >21M de usuarios) | **No reparten gastos** entre los miembros. |
 | **Grandes tecnológicas** | Google Keep, Apple, WhatsApp | Notas, listas y chat genéricos | Herramientas genéricas (el 24,2 % usa chats). |
 | **Distribución minorista** | Mercadona, Dia | Compra online, cupones y fidelización | Enfocadas en su tienda y un solo comprador; sin grupo ni reparto. |
 
