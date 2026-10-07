@@ -26,5 +26,5 @@ Aunque el smartphone organiza la vida diaria, la gestión doméstica sigue haci�
 | **Distribución minorista** | Mercadona, Dia | Compra online, cupones y fidelización | Enfocadas en su tienda y un solo comprador; sin grupo ni reparto. |
 
 **Nuestra solución:** Ninguna herramienta une **lista compartida + reparto por producto** adaptada a un grupo de iguales. El proyecto consiste en el desarrollo de una aplicación móvil para administrar compras compartidas entre compañeros de piso, estructurada en dos bloques:
-1. **Administración integral** de perfiles y colectivos de convivencia (incluyendo recomendación de productos según el nivel económico de los usuarios).
+1. **Administración integral** de perfiles y grupos de convivencia (incluyendo recomendación de productos según el nivel económico de los usuarios).
 2. **Registro detallado de tiques** y liquidación automática de cuentas entre los miembros.
