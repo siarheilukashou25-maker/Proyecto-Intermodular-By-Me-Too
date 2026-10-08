@@ -1,28 +1,28 @@
 # By Me Too
  
 > Aplicación para repartir gastos en pisos universitarios de forma clara, justa y sin discusiones.
- 
----
- 
-## 1. IDENTIFICACIÓN DEL PROYECTO
- 
-| Campo | Información |
+> 
+La memoria sigue la plantilla de índice propuesta para el Proyecto Intermodular. Cada capítulo mantiene la trazabilidad con los demás: cada requisito del Capítulo 4 tendrá un diseño en el 5, una implementación en el 6 y una prueba en el 7.
+
+*Tabla 26. Estructura de la memoria.*
+| Capítulo | Contenido |
 |---|---|
-| **Nombre** | By Me Too |
-| **Tipo de proyecto** | Aplicación móvil / web |
-| **Ámbito** | Gestión de gastos compartidos en pisos |
-| **Autor/es** | Pablo, Roberto, Searhei , Elias |
-| **Grado** | Desarrollo De Aplicaciones Multiplataforma |
-| **Curso académico** | 2026/2027 |
-| **Tecnologías** | Java, NetBeans, Git, Github , Scrum, Firebase, Figma |
-| **Versión** | 1.0 |
- 
-### 1.1. Descripción general
- 
-By Me Too es una aplicación pensada para estudiantes que comparten piso. Permite registrar los gastos comunes (alquiler, luz, agua, internet, compra, limpieza...), repartirlos entre los compañeros y saber en todo momento quién debe dinero a quién.
- 
-### 1.2. Problema que resuelve
- 
-Compartir piso genera cuentas confusas: se pierden tickets, se olvida quién pagó qué y aparecen discusiones por dinero. La aplicación centraliza toda esa información en un único lugar.
- 
----
+| **Preliminares** | Portada, declaración de autoría, resumen ejecutivo, palabras clave, índices y acrónimos |
+| **1. Introducción** | Contexto, problema, solución, objetivos, alcance, limitaciones y estructura |
+| **2. Análisis del contexto y viabilidad** | Sector y perfil de usuarios, análisis de la necesidad, soluciones existentes (benchmarking), partes interesadas, viabilidad técnica, económica y legal, riesgos iniciales |
+| **3. Planificación y gestión del proyecto** | Metodología Scrum, organización y roles, plan de trabajo, cronograma, recursos, presupuesto, riesgos, herramientas y gestión de versiones |
+| **4. Análisis de requisitos** | Perfiles de usuario, requisitos funcionales y no funcionales verificables, reglas de negocio (algoritmo de reparto), historias de usuario, priorización y matriz de trazabilidad |
+| **5. Diseño de la solución** | Arquitectura y patrón MVC, componentes, modelo de datos, mapa de navegación, wireframes y diseño final, seguridad |
+| **6. Desarrollo e implementación** | Tecnologías, entorno, estructura del código, funcionalidades principales, persistencia, interfaz, dependencias, ramas y decisiones técnicas |
+| **7. Pruebas y aseguramiento de la calidad** | Estrategia, smoke tests, pruebas unitarias, funcionales, de usabilidad y de seguridad; resultados e incidencias |
+| **8. Despliegue y puesta en producción** | Infraestructura, instalación, despliegue, configuración, copias de seguridad, monitorización y mantenimiento |
+| **9. Manuales de uso** | Manual de instalación, técnico y de usuario; preguntas frecuentes |
+| **10. Resultados y evaluación final** | Producto desarrollado, cumplimiento de objetivos, requisitos y KPI, comparación entre lo planificado y lo real, dificultades |
+| **11. Conclusiones y líneas futuras** | Conclusiones, mejoras, escalabilidad y reflexión sobre el aprendizaje |
+| **Referencias y anexos** | Referencias en formato IEEE; requisitos, diagramas, modelo de datos, pruebas, presupuesto, cronograma, licencias, repositorio |
+
+
+- **Herramienta:** GitHub Projects (Kanban: To Do → In progress → Ready → To Fix → In review → Done), con una vista por sprint.
+- **Nomenclatura:** `PD-` para Proyecto Intermodular y `DI-` para Desarrollo de Interfaces; cada tarea es un issue con responsable, estimación y sprint.
+- **Código:** rama por miembro (`siarhei-branch`, `pablo-branch`, `roberto-branch`, `elias-branch`) e integración en `main` mediante Pull Request.
+- **Documentación:** Markdown en el repositorio [Proyecto-Intermodular-By-Me-Too](https://github.com/siarheilukashou25-maker/Proyecto-Intermodular-By-Me-Too), un archivo por apartado (`PD-x.x`).
