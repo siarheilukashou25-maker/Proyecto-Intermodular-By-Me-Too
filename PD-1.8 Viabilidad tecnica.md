@@ -173,7 +173,7 @@ Para garantizar la viabilidad del proyecto a medio y largo plazo, se define un m
   * **Ingresos Mensuales Iniciales:** $\mathbf{\sim 54{,}80 \text{ €/mes}}$.
 * **Conclusión de Viabilidad:** Los ingresos iniciales cubren holgadamente los costes operativos de infraestructura Cloud ($\sim 15 \text{ €/mes}$), alcanzando el **Punto de Equilibrio Operativo (Break-Even)** a partir de solo **200 usuarios activos**, garantizando la sostenibilidad financiera de la aplicación sin requerir financiación externa pesada.
 
-### Justificación e Integración Intermodular
+### 5 Justificación e Integración Intermodular
 
 El proyecto **By Me Too!** se ha diseñado como una solución integral que aglutina y pone en práctica todos los conocimientos, competencias y resultados de aprendizaje adquiridos durante el segundo curso del ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). 
 
@@ -198,7 +198,7 @@ A continuación, se detalla la justificación y el grado de implicación de cada
     *   Actúa como hilo conductor, obligando a aplicar metodologías de desarrollo ágil (Scrum), control de versiones (Git/GitHub) y la elaboración de una documentación técnica estructurada que certifica la trazabilidad completa desde la idea inicial hasta el despliegue del producto final.
 
 ---------
-### Encuesta de mercado:
+### 6 Encuesta de mercado:
 
 **1. Proyectos similares y soluciones actuales (Competencia)**
 Actualmente, el mercado carece de una solución unificada para este nicho. Según nuestra encuesta a 75 usuarios, la "competencia" real son métodos manuales y desorganizados: un 48,5% utiliza libretas físicas en casa, un 24,2% usa grupos en apps de mensajería rápida y un 21,3% no utiliza ninguna herramienta. Aunque existen apps genéricas de listas de la compra o de reparto de gastos (como Splitwise), ninguna integra la **gestión simultánea de la cesta y la división automática del precio unitario por producto**. 
@@ -212,5 +212,34 @@ Actualmente, el mercado carece de una solución unificada para este nicho. Segú
 * **Preferencia de establecimientos:** Existe un monopolio claro en la preferencia de los usuarios, con Mercadona acaparando un 92% del interés, muy por delante de competidores como Lidl y Día (21% cada uno). Esto es clave para futuras estrategias de marketing o integración de catálogos.
 
 --------------
+### 7 Marco Legal, Fiscal y Prevención de Riesgos
 
+La viabilidad comercial del proyecto exige el cumplimiento de normativas legales, obligaciones fiscales y protección de los trabajadores.
+
+#### 7.1. Obligaciones Legales y Fiscales
+Para operar en el mercado español y publicar en Google Play y App Store de forma comercial, el equipo promotor deberá constituirse legalmente:
+* **Forma jurídica inicial:** Alta en el Régimen Especial de Trabajadores Autónomos (RETA) para los fundadores, aprovechando la tarifa plana inicial. En fases de escalabilidad, se constituirá una Sociedad Limitada (S.L.).
+* **Obligaciones fiscales:** 
+  * Presentación trimestral de IVA (Modelo 303).
+  * Retenciones de IRPF (Modelo 130 o 111).
+  * Tributación de beneficios a través del Impuesto de Sociedades (25% en régimen general, 15% para empresas de nueva creación).
+* **Protección de Datos:** Cumplimiento estricto del RGPD (Reglamento General de Protección de Datos) europeo y la LOPDGDD española, requiriendo el consentimiento explícito para procesar datos financieros, historiales de compra y credenciales de autenticación.
+
+#### 7.2. Prevención de Riesgos Laborales (PRL)
+Dado que el desarrollo de software es una actividad intensiva en PVD (Pantallas de Visualización de Datos), se contemplan los siguientes riesgos y medidas preventivas:
+
+* **Riesgos ergonómicos:** Fatiga visual, cervicalgias y síndrome del túnel carpiano.
+  * *Medidas:* Sillas ergonómicas ajustables, monitores a la altura de los ojos.
+* **Riesgos psicosociales:** Estrés por plazos de entrega y sedentarismo.
+  * *Medidas:* Pausas visuales (regla 20-20-20), metodologías ágiles para evitar cuellos de botella en las entregas, y fomento de la desconexión digital fuera de las horas estipuladas.
+
+---
+
+### 8 Financiación Pública y Ayudas al Emprendimiento
+
+Para sufragar los costes iniciales y escalar el producto, se identifican las siguientes líneas de subvención y ayudas aplicables al sector TIC en España:
+
+1. **Programa Kit Digital:** Impulsado por el Gobierno de España, ofrece bonos digitales para pymes y autónomos. Aunque está orientado a la digitalización, puede aprovecharse para financiar la infraestructura web y el marketing de la aplicación.
+2. **ENISA (Jóvenes Emprendedores):** Préstamos participativos del Ministerio de Industria, sin avales personales, orientados a pymes de reciente constitución (menos de 24 meses) con proyectos innovadores de base tecnológica.
+3. **Ayudas Autonómicas:** Subvenciones a fondo perdido para el fomento del empleo autónomo en la comunidad autónoma correspondiente (ej. cuota cero o ayudas al inicio de actividad).
 
