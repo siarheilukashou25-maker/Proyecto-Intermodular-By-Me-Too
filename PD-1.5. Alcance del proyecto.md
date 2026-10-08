@@ -1,12 +1,18 @@
-# 1.5 Alcance del proyecto
-El alcance del proyecto es llegar a convertirse es una herramienta de uso cotidiano en el día a día de personas que forman parte de pequeños grupos de convivencia (estudiantes en pisos compartidos, familias o compañeros de casa) que abundan tanto estos tiempos para ayudarles resolver la fricción del reparto de gastos cotidianos sin recurrir a cálculos manuales u otros métodos tediosos y con estos beneficios:
+## 5. Alcance del proyecto
 
-- Perfiles personales con información relevante.
+El proyecto aspira a convertirse en una herramienta de uso diario, siendo el objetivo llegar a:
 
-- Posibilidad de gestionar y participar en múltiples grupos.
+- **Usuarios:** grupos de 2 a 10 personas aproximadamente, de 18 a 50 años; foco en compañeros de piso de 19 a 35 años.
 
-- Registro de gastos con comprador, importe y concepto.
+- **Plataformas:** Android e iOS + Versión ejecutable de escritorio.
 
-- Cálculo y gestión de compras y lógica de reparto.
+- **Ámbito geográfico inicial:** España, con euros como moneda e idioma español.
 
-- Herramientas para controlar los balances y liquidación.
+| Objetivos | Funciones |
+|---|---|
+| Perfiles personales con la información relevante | Registro, login y perfil |
+| Gestión de varios grupos por usuario | Crear, unirse, invitar, gestionar miembros |
+| Lista / cesta compartida en tiempo real | Añadir, quitar y modificar productos; varias cestas |
+| Registro de compras | Comprador, importe, concepto y participantes |
+| Reparto común / personal / parcial | Algoritmo de reparto por producto |
+| Balances y liquidación por periodos | Resumen semanal, quincenal, mensual o personalizado |
