@@ -220,8 +220,8 @@ La viabilidad comercial del proyecto exige el cumplimiento de normativas legales
 Para operar en el mercado español y publicar en Google Play y App Store de forma comercial, el equipo promotor deberá constituirse legalmente:
 * **Forma jurídica inicial:** Alta en el Régimen Especial de Trabajadores Autónomos (RETA) para los fundadores, aprovechando la tarifa plana inicial. En fases de escalabilidad, se constituirá una Sociedad Limitada (S.L.).
 * **Obligaciones fiscales:** 
-  * Presentación trimestral de IVA (Modelo 303).
-  * Retenciones de IRPF (Modelo 130 o 111).
+  * Presentación trimestral de IVA .
+  * Retenciones de IRPF .
   * Tributación de beneficios a través del Impuesto de Sociedades (25% en régimen general, 15% para empresas de nueva creación).
 * **Protección de Datos:** Cumplimiento estricto del RGPD (Reglamento General de Protección de Datos) europeo y la LOPDGDD española, requiriendo el consentimiento explícito para procesar datos financieros, historiales de compra y credenciales de autenticación.
 
