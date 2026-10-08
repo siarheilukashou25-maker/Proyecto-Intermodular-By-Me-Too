@@ -11,7 +11,10 @@ Dado que el equipo debe cubrir todas las áreas del desarrollo de software y la 
 
 Para maximizar la eficiencia en el desarrollo, cada integrante asume un rol técnico principal basado en sus competencias:
 
-* **Product Owner y Analista de Requisitos:**
+* **Product Owner**
+  * **Miembro asignado:** Willman Acosta Lugo.
+  * **Funciones:** Guía principal. Colaborador y juez de los sprints realizados por el equipo de desarrollo.
+**Analista de Requisitos:**
   * **Miembro asignado:** Siarhei.
   * **Funciones:** Recogida de necesidades de usuarios potenciales mediante encuestas, priorización del *Product Backlog* en GitHub Projects, delimitación del MVP y validación funcional del software frente a las historias de usuario.
 * **Desarrollador Front-End e Interfaz de Usuario:**
@@ -170,25 +173,44 @@ Para garantizar la viabilidad del proyecto a medio y largo plazo, se define un m
   * **Ingresos Mensuales Iniciales:** $\mathbf{\sim 54{,}80 \text{ €/mes}}$.
 * **Conclusión de Viabilidad:** Los ingresos iniciales cubren holgadamente los costes operativos de infraestructura Cloud ($\sim 15 \text{ €/mes}$), alcanzando el **Punto de Equilibrio Operativo (Break-Even)** a partir de solo **200 usuarios activos**, garantizando la sostenibilidad financiera de la aplicación sin requerir financiación externa pesada.
 
-#### Justificación e Integración Intermodular
+### Justificación e Integración Intermodular
 
------
-### Resultados previstos:
-Ingresos previstos respecto a los gastos(materiales,mano de obra,transporte,Costes Operativos e Indirectos, ubicación física, Costes de Infraestructura y Licencias,mantenimiento,)
+El proyecto **By Me Too!** se ha diseñado como una solución integral que aglutina y pone en práctica todos los conocimientos, competencias y resultados de aprendizaje adquiridos durante el segundo curso del ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). 
+
+A continuación, se detalla la justificación y el grado de implicación de cada módulo profesional en el desarrollo del proyecto:
+
+*   **Programación Multimedia y Dispositivos Móviles (PMDM):** 
+    *   Es el pilar central del proyecto para la creación del cliente (Frontend). Se aplica en el desarrollo completo de la aplicación móvil (utilizando Flutter/Dart o tecnologías equivalentes), gestionando el ciclo de vida de la aplicación, la navegación entre pantallas y el uso de componentes nativos del dispositivo.
+    *   Permite implementar la lógica de sincronización en tiempo real y la gestión del estado de la aplicación cuando los usuarios añaden productos a la cesta virtual.
+*   **Acceso a Datos (AD):** 
+    *   Resulta fundamental para garantizar la persistencia de la información. Se aplica en la integración de la aplicación con la base de datos en la nube (Firebase).
+    *   Incluye la estructuración de los datos (usuarios, grupos de convivencia, tiques, productos y balances), las operaciones CRUD (Crear, Leer, Actualizar, Borrar) y el mapeo de los datos JSON/NoSQL a objetos del modelo de negocio.
+*   **Desarrollo de Interfaces (DI):** 
+    *   Se aplica directamente en las fases de diseño y prototipado visual de todas las pantallas mediante herramientas como Figma y Base44.
+    *   Asegura que la aplicación cumpla con los estándares de usabilidad, accesibilidad y experiencia de usuario (UX/UI), permitiendo que el registro de compras sea rápido e intuitivo (en menos de 60 segundos) y adaptándose a diferentes tamaños de pantalla.
+*   **Sistemas de Gestión Empresarial (SGE):** 
+    *   La aplicación "By Me Too!" actúa en la práctica como un **micro-ERP (Sistema de Planificación de Recursos Empresariales)** orientado al ámbito doméstico.
+    *   Se aplican los conceptos de este módulo al modelar los módulos de "clientes/usuarios", gestión de "inventario/compras" y la lógica de cálculo financiero para automatizar la liquidación de cuentas y deudas entre los miembros del grupo de convivencia.
+*   **Itinerario para la empleabilidad(IPE):** 
+    *   Justifica la existencia misma del proyecto desde una perspectiva de mercado. Se aplica en la identificación del problema, la definición del público objetivo (compañeros de piso y familias) y el estudio de viabilidad técnica y económica.Ayudará con las referencias legales.
+    *   Define la estructura organizativa del equipo de trabajo, las obligaciones legales (cumplimiento del RGPD) y la estrategia de comercialización o distribución.
+*   **Proyecto Intermodular:** 
+    *   Actúa como hilo conductor, obligando a aplicar metodologías de desarrollo ágil (Scrum), control de versiones (Git/GitHub) y la elaboración de una documentación técnica estructurada que certifica la trazabilidad completa desde la idea inicial hasta el despliegue del producto final.
 
 ---------
 ### Encuesta de mercado:
-Proyectos similares(fortalezas,debilidades,precios,marketing,calidad,lealtad)
-Considerar tendencias demográficas, culturas,ingresos.
+
+**1. Proyectos similares y soluciones actuales (Competencia)**
+Actualmente, el mercado carece de una solución unificada para este nicho. Según nuestra encuesta a 75 usuarios, la "competencia" real son métodos manuales y desorganizados: un 48,5% utiliza libretas físicas en casa, un 24,2% usa grupos en apps de mensajería rápida y un 21,3% no utiliza ninguna herramienta. Aunque existen apps genéricas de listas de la compra o de reparto de gastos (como Splitwise), ninguna integra la **gestión simultánea de la cesta y la división automática del precio unitario por producto**. 
+
+* **Debilidades actuales del mercado:** El 82,7% de los usuarios afirma que olvida productos por no llevar listas completas o actualizadas.
+* **Fortaleza de By Me Too!:** El 95% de los encuestados afirma que usaría nuestra aplicación. La funcionalidad de añadir/borrar productos en conjunto es considerada imprescindible por el 80%, y la división de gastos cuenta con un 100% de aceptación específica en entornos de pisos compartidos.
+
+**2. Tendencias demográficas, culturales y de ingresos**
+* **Demografía:** El público objetivo principal es joven. El 80% de los usuarios tiene entre 19 y 40 años, siendo el 70% estudiantes universitarios o personas recién insertadas en el mundo laboral. Esto indica ingresos medios-bajos, lo que justifica el modelo de negocio *Freemium* para no crear barreras de entrada.
+* **Cultura de consumo:** La compra sigue siendo una actividad muy tradicional; el 97% acude de forma presencial al supermercado. Además, es una tarea muy recurrente: el 90% hace la compra con una frecuencia de entre 2 y 7 días.
+* **Preferencia de establecimientos:** Existe un monopolio claro en la preferencia de los usuarios, con Mercadona acaparando un 92% del interés, muy por delante de competidores como Lidl y Día (21% cada uno). Esto es clave para futuras estrategias de marketing o integración de catálogos.
 
 --------------
-### Decisión siguiendo el Plan de negocios:
-- Organigrama: donde se evidencien los roles de trabajo. 
-- Mercadeo y comercialización: las estrategias para dar a conocer el proyecto. 
-- Ubicación o posibles ubicaciones del proyecto. 
-- Materiales, equipos y recursos: con el mayor nivel de detalle posible. 
-- Costos laborales: los gastos en personal. 
-- Cantidad de mano de obra necesaria y las capacidades requeridas. 
-- Gastos generales como seguros, impuestos, préstamos y servicios públicos. 
-- Costos durante la operación, en caso de que aplique.
+
 
