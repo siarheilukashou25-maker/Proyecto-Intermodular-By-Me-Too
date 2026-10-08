@@ -14,7 +14,7 @@ La memoria sigue la plantilla de índice propuesta para el Proyecto Intermodular
 | **4. Análisis de requisitos** | Perfiles de usuario, requisitos funcionales y no funcionales verificables, reglas de negocio (algoritmo de reparto), historias de usuario, priorización y matriz de trazabilidad |
 | **5. Diseño de la solución** | Arquitectura y patrón MVC, componentes, modelo de datos, mapa de navegación, wireframes y diseño final, seguridad |
 | **6. Desarrollo e implementación** | Tecnologías, entorno, estructura del código, funcionalidades principales, persistencia, interfaz, dependencias, ramas y decisiones técnicas |
-| **7. Pruebas y aseguramiento de la calidad** | Estrategia, smoke tests, pruebas unitarias (JUnit), de integración, funcionales, de usabilidad y de seguridad; resultados e incidencias |
+| **7. Pruebas y aseguramiento de la calidad** | Estrategia, smoke tests, pruebas unitarias, funcionales, de usabilidad y de seguridad; resultados e incidencias |
 | **8. Despliegue y puesta en producción** | Infraestructura, instalación, despliegue, configuración, copias de seguridad, monitorización y mantenimiento |
 | **9. Manuales de uso** | Manual de instalación, técnico y de usuario; preguntas frecuentes |
 | **10. Resultados y evaluación final** | Producto desarrollado, cumplimiento de objetivos, requisitos y KPI, comparación entre lo planificado y lo real, dificultades |
