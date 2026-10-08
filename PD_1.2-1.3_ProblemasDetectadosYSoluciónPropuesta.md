@@ -1,111 +1,171 @@
 # 1. Problema o necesidad detectada
 
-## 1.1. Descripción del problema
+## 1.1. Contextualización del problema
 
-**¿Qué problema o necesidad hemos detectado?**
+En la actualidad vivimos en una sociedad en la que las personas realizan continuamente actividades que requieren **organización, comunicación y colaboración con otras personas**. Estas necesidades están presentes en diferentes ámbitos de nuestra vida cotidiana, desde la organización familiar hasta la convivencia con otras personas o la planificación de actividades y eventos.
 
-En primera instancia el problema detectado se resumía a la necesidad real de gestionar la cesta de la compra de manera virtual , sin la necesidad de utilizar medios físicos. En segunda instancia observamos que varios usuarios potenciales comentaron la necesidad de gestionar igualmente los costes de la cesta entre los usuarios que la conforman.
+Una de estas actividades es la **realización de compras**, una tarea habitual que, aunque puede parecer sencilla cuando la realiza una única persona, puede adquirir una mayor complejidad cuando intervienen varias personas.
 
-**Situación actual:**
-Dada la oportunidad observada , hemos decidido implementar una funcionalidad para dividir los gastos de la cesta de manera equitativa entre sus usuarios , e incluso poder desglosar por producto y realizar una división interna de cada uno de los tornillos de la cesta entre las personas que los consuman.
+Las necesidades de cada individuo pueden ser diferentes y, en determinadas situaciones, varias personas necesitan ponerse de acuerdo para decidir **qué productos comprar, quién los necesita y cómo se van a repartir los gastos**.
 
----
-
-## 1.2. ¿A quién afecta?
-
-El problema afecta principalmente a:
-
-* **Usuarios:** Compañeros de piso y Padre/Madre de familia .
-* **Edad aproximada:** 18-50 
-* **Situación:** El problema para la gestión de la cesta se observa en todos los usuarios potenciales de la aplicación. El problema para la gestión de precios se observa únicamente en los usuarios que comparten piso o usuarios que celebran eventos , como pueden ser cumpleaños , fiestas , barbacoas...
+Esta situación es especialmente frecuente en familias, viviendas compartidas o grupos de personas que organizan actividades conjuntamente.
 
 ---
 
-## 1.3. ¿Cuándo y dónde aparece el problema?
+## 1.2. De la necesidad general al problema concreto
 
-El problema aparece principalmente cuando:
+Cuando varias personas participan en una misma compra, aparece la necesidad de **compartir y organizar la información relacionada con ella**.
 
-* **Usuario Padre/Madre** : Acude al supermercado semanalmente y decide preguntar a sus hijos qué necesitan. De manera eficiente los hijos pueden añadir desde cualquier sitio con conectividad a internet productos a la cesta virtual que tienen en familia 
-* **Usuario que comparte piso**: Necesitan hacer la compra de productos comunes , e incluso productos no comunes. Suelen comunicarse por apps de mensajería rápida para gestionar la cesta . Nuestra app permitirá de la misma forma una modificación en tiempo real para añadir y quitar productos de esa cesta. También los usuarios que conformen la cesta podrán añadir productos propios o de uso común dividiendo los gastos de estos de la forma que necesiten.
+Tradicionalmente, esta comunicación puede realizarse mediante conversaciones presenciales, notas, listas de papel o aplicaciones de mensajería. Sin embargo, estos medios no están específicamente diseñados para gestionar una compra compartida.
 
----
+Por ejemplo, en una conversación de mensajería pueden enviarse diferentes mensajes indicando productos que hay que comprar, pero posteriormente puede resultar difícil determinar cuáles se han añadido, cuáles se han eliminado o cuáles siguen pendientes.
 
-## 1.4. Consecuencias del problema
+A partir de esta situación surge una primera necesidad concreta:
 
-La existencia de este problema puede provocar:
+> **Disponer de una herramienta que permita gestionar una cesta de compra de forma compartida y organizada.**
 
-* Falta de productos en la cesta
-* Problemas a la hora de calcular gastos
-* Falta de comunicación entre usuarios
+Sin embargo, al analizar con mayor profundidad este tipo de situaciones, se observa que el problema no termina cuando se consigue determinar qué productos hay que comprar.
 
----
-
-# 2. Necesidad detectada
-
-Los usuarios necesitan:
-
-* Añadir quitar productos
-* Crear cestas diferentes para la casa , cumpleaños , barbacoas , etc
-* Dividir la compra entre todos los usuarios que participan
-* Dividir cada producto entre los usuarios que lo vayan a consumir
+Cuando varias personas participan en una compra, también puede ser necesario determinar **cuánto debe pagar cada una de ellas**.
 
 ---
 
-# 3. Solución propuesta
+## 1.3. La necesidad de gestionar los gastos
 
-Para dar respuesta al problema se propone desarrollar una aplicación denominada:
+El reparto de los gastos puede ser sencillo cuando todos los participantes consumen exactamente los mismos productos. Sin embargo, esta situación no siempre se produce.
+
+Por ejemplo, en un piso compartido pueden existir productos de uso común, como alimentos o productos de limpieza, pero también productos que únicamente consume uno de los compañeros.
+
+De la misma forma, en un cumpleaños, una barbacoa o una fiesta pueden existir productos que sean consumidos únicamente por determinados participantes.
+
+Por este motivo, dividir simplemente el importe total de la compra entre todas las personas no siempre representa un reparto justo.
+
+Surge así una segunda necesidad:
+
+> **Disponer de un sistema que permita distribuir los gastos de una compra entre los usuarios que participan en ella, pudiendo determinar qué personas deben asumir el coste de cada producto.**
+
+---
+
+## 1.4. Usuarios afectados
+
+Las necesidades detectadas pueden aparecer en diferentes grupos de personas.
+
+### Familias
+
+En una familia, una persona puede ser la encargada de acudir al supermercado mientras otros miembros de la familia indican los productos que necesitan.
+
+En esta situación sería útil disponer de una cesta compartida en la que cada miembro pueda añadir sus productos y consultar la información actualizada.
+
+### Compañeros de piso
+
+En una vivienda compartida pueden existir tanto productos comunes como productos individuales.
+
+Además de conocer qué productos deben comprarse, los usuarios pueden necesitar determinar qué personas deben pagar cada producto.
+
+### Grupos que organizan eventos
+
+En cumpleaños, barbacoas, fiestas u otros eventos, varias personas pueden colaborar en la compra.
+
+En estos casos resulta necesario organizar los productos y posteriormente repartir los gastos entre las personas participantes.
+
+---
+
+## 1.5. Situación actual
+
+Actualmente, estas situaciones pueden gestionarse mediante diferentes medios, como conversaciones de mensajería, notas o listas de compra.
+
+Aunque estos métodos permiten compartir información, pueden generar determinados problemas cuando aumenta el número de participantes o de productos.
+
+Entre ellos podemos encontrar:
+
+* Productos olvidados.
+* Productos duplicados.
+* Información desactualizada.
+* Dificultad para saber quién ha añadido cada producto.
+* Problemas para determinar qué productos son comunes y cuáles son individuales.
+* Dificultad para calcular cuánto debe pagar cada persona.
+* Necesidad de utilizar diferentes medios para gestionar los productos y los gastos.
+
+Por tanto, se identifica la oportunidad de **centralizar la gestión de la compra y el reparto de sus gastos en una única herramienta**.
+
+---
+
+## 1.6. Necesidad detectada
+
+Después de analizar la situación desde una perspectiva general hasta llegar al problema concreto, se identifican dos necesidades principales:
+
+**1. Gestionar una compra de forma colaborativa.**
+
+Los usuarios necesitan poder crear una cesta, añadir productos, eliminarlos y consultar la información actualizada de la compra.
+
+**2. Gestionar el reparto de los gastos.**
+
+Los usuarios necesitan poder determinar cómo se distribuye el coste de la compra y, cuando sea necesario, repartir productos concretos únicamente entre las personas que los van a consumir.
+
+Estas necesidades dan lugar a la propuesta de desarrollar una aplicación específica para este propósito.
+
+---
+
+# 2. Solución propuesta
+
+Para dar respuesta a las necesidades detectadas se propone desarrollar una aplicación denominada:
 
 ## **By Me Too!**
 
-La aplicación permitirá:
+La aplicación tendrá como finalidad **facilitar la organización de compras compartidas**, permitiendo centralizar en una única cesta tanto los productos que deben comprarse como la distribución de sus gastos.
 
-* Crear cestas
-* Borrar cestas
-* Añadir / Quitar productos 
-* Dividir gastos 
+De esta forma, la aplicación permitirá:
 
-# 4. Objetivos de la aplicación
+* Crear diferentes cestas.
+* Eliminar cestas.
+* Añadir productos.
+* Modificar productos.
+* Eliminar productos.
+* Compartir una cesta entre diferentes usuarios.
+* Mantener la información actualizada.
+* Dividir el coste total de la compra.
+* Asignar productos a determinados usuarios.
+* Dividir el coste de cada producto entre las personas que lo consumen.
 
-El objetivo principal de **By Me Too!** es facilitar la gestión de compras compartidas mediante una cesta virtual en la que varios usuarios puedan colaborar y gestionar los productos y sus gastos.
+Así, una necesidad cotidiana y general de **organización y colaboración entre personas** se concreta en una solución tecnológica destinada a un problema específico: **la gestión colaborativa de compras y el reparto de sus gastos**.
 
-## 4.1. Objetivo general
+# 3. Objetivos de la aplicación
+
+## 3.1. Objetivo general
 
 > **Desarrollar una aplicación que permita gestionar de forma colaborativa una cesta de compra y distribuir sus gastos entre los usuarios que participan en ella.**
 
-## 4.2. Objetivos específicos
+## 3.2. Objetivos específicos
 
-* **Crear y gestionar cestas de compra** para diferentes situaciones, como compras familiares, pisos compartidos, cumpleaños, barbacoas o cualquier otro evento.
+* Crear y gestionar cestas de compra para diferentes situaciones.
+* Permitir añadir, modificar y eliminar productos.
+* Permitir la participación de varios usuarios en una misma cesta.
+* Mantener la información de la cesta actualizada entre los participantes.
+* Calcular y dividir el coste total de la compra.
+* Permitir asignar productos a determinados usuarios.
+* Dividir el coste de cada producto entre las personas que lo consumen.
+* Facilitar la organización de compras familiares, pisos compartidos y eventos.
+* Reducir los problemas derivados de productos olvidados y del reparto de gastos.
 
-* **Permitir añadir, modificar y eliminar productos** de una cesta de forma sencilla.
+# 4. Metodología utilizada para el estudio del problema
 
-* **Permitir que varios usuarios participen en una misma cesta**, pudiendo consultar y modificar su contenido.
+Para llegar a la identificación del problema se ha seguido un proceso de análisis que parte de situaciones generales de la vida cotidiana y se va concretando hasta determinar una necesidad que pueda ser resuelta mediante una aplicación.
 
-* **Mantener la información de la cesta actualizada entre los usuarios**, evitando tener que utilizar diferentes medios de comunicación para indicar qué productos hay que comprar.
+En primer lugar, se realizó una **observación de situaciones cotidianas** en las que varias personas participan en la organización de una compra.
 
-* **Calcular y dividir el coste total de la compra** entre los usuarios que participan en ella.
+Posteriormente, se analizaron diferentes perfiles de usuarios, principalmente **familias, compañeros de piso y grupos que organizan eventos**, con el objetivo de identificar las dificultades que pueden aparecer en cada situación.
 
-* **Permitir asignar productos a determinados usuarios**, de manera que el coste de un producto pueda repartirse únicamente entre las personas que lo van a consumir.
+A continuación, se realizó una **recogida de información mediante encuestas a usuarios potenciales**, con el objetivo de comprobar si las necesidades detectadas durante la observación también estaban presentes en otras personas.
 
-* **Facilitar la organización de compras compartidas**, reduciendo los problemas relacionados con productos olvidados y con el reparto de los gastos.
+A partir de la información obtenida se realizó un **análisis de necesidades**, identificando dos problemas principales: la gestión colaborativa de los productos y el reparto de los gastos.
 
-# 5. Metodología utilizada para el estudio del problema
-
-Para detectar y analizar el problema se ha utilizado una metodología basada principalmente en la **observación de situaciones reales y la recogida de información de usuarios potenciales**.
-
-En primer lugar, se analizaron diferentes situaciones en las que varias personas necesitan realizar una compra de forma conjunta, como pueden ser **familias, compañeros de piso o grupos que organizan eventos**.
-
-Posteriormente, se recogió información de usuarios potenciales para conocer sus necesidades y comprobar si las dificultades detectadas también se producían en otras personas.
-
-A partir de la información obtenida se identificaron principalmente dos necesidades:
-
-* Gestionar una cesta de compra de forma colaborativa.
-* Gestionar y repartir los gastos de la compra entre los usuarios que participan en ella.
-
-Finalmente, se analizaron las necesidades obtenidas y se seleccionaron aquellas que podían ser solucionadas mediante una aplicación, dando lugar a la propuesta de **By Me Too!**.
+Finalmente, se transformaron estas necesidades en **requisitos y funcionalidades concretas**, dando lugar a la propuesta de desarrollo de **By Me Too!**.
 
 ### Técnicas utilizadas
 
-* **Observación:** análisis de situaciones reales relacionadas con la realización de compras compartidas.
+* **Observación:** análisis de situaciones cotidianas relacionadas con las compras compartidas.
 * **Encuesta:** recogida de opiniones y necesidades de usuarios potenciales.
-* **Análisis de necesidades:** identificación y selección de los problemas que la aplicación puede solucionar.
+* **Análisis de necesidades:** identificación de los problemas comunes entre los diferentes usuarios.
+* **Definición de requisitos:** transformación de las necesidades detectadas en funcionalidades concretas para la aplicación.
+
 
