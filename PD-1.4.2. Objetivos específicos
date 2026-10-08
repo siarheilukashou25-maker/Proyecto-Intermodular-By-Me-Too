@@ -1,3 +1,4 @@
+
 ### 1.4.2. Objetivos específicos
 
 Los objetivos específicos desglosan el objetivo general en **logros concretos, observables y medibles**, ordenados por fases. Cada uno se redacta como una **acción**, indica **para qué** se hace y **cómo** se consigue, y lleva un **indicador** que permite comprobar si se ha cumplido.
@@ -13,7 +14,7 @@ Los objetivos específicos desglosan el objetivo general en **logros concretos, 
 | OE-P3 | Elaborar el Product Backlog | Disponer de un plan de trabajo trazable | Issues en GitHub Projects con etiquetas PD- y DI-, responsable y estimación | 100 % de las tareas con responsable y estimación |
 | OE-P4 | Planificar los 8 sprints con fechas y entregables | Cumplir los hitos de evaluación | Calendario de sprints en el tablero | Calendario publicado. **Conseguido (1.7)** |
 | OE-P5 | Analizar la viabilidad técnica, económica y legal | Confirmar que el proyecto es realizable y sostenible | Estudio de factibilidad: arquitectura, riesgos, presupuesto, normativa | Capítulo 2 entregado en el Sprint 2 |
-| OE-P6 | Seleccionar las tecnologías de interfaz y de datos | Elegir con criterios objetivos | Comparativas técnicas (AWT/Swing/JavaFX; bases de datos) | Swing elegido (24/09/2026); base de datos elegida antes del Sprint 3 |
+
 
 **Fase 2. Desarrollo (Sprints 3–6).** En esta fase se tienen en cuenta la facilidad de uso en el supermercado, la concurrencia entre varios usuarios, la precisión del cálculo y la protección de los datos.
 
