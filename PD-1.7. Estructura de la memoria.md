@@ -20,3 +20,9 @@ La memoria sigue la plantilla de índice propuesta para el Proyecto Intermodular
 | **10. Resultados y evaluación final** | Producto desarrollado, cumplimiento de objetivos, requisitos y KPI, comparación entre lo planificado y lo real, dificultades |
 | **11. Conclusiones y líneas futuras** | Conclusiones, mejoras, escalabilidad y reflexión sobre el aprendizaje |
 | **Referencias y anexos** | Referencias en formato IEEE; requisitos, diagramas, modelo de datos, pruebas, presupuesto, cronograma, licencias, repositorio |
+
+
+- **Herramienta:** GitHub Projects (Kanban: To Do → In progress → Ready → To Fix → In review → Done), con una vista por sprint.
+- **Nomenclatura:** `PD-` para Proyecto Intermodular y `DI-` para Desarrollo de Interfaces; cada tarea es un issue con responsable, estimación y sprint.
+- **Código:** rama por miembro (`siarhei-branch`, `pablo-branch`, `roberto-branch`, `elias-branch`) e integración en `main` mediante Pull Request.
+- **Documentación:** Markdown en el repositorio [Proyecto-Intermodular-By-Me-Too](https://github.com/siarheilukashou25-maker/Proyecto-Intermodular-By-Me-Too), un archivo por apartado (`PD-x.x`).
