@@ -55,3 +55,23 @@ By Me Too! adopta la estructura de una **startup de software** con metodología 
 | **QA** | Pruebas y control de calidad | Documento de smoke test |
 | **Marketing y comunidad** | Difusión en redes sociales | Estrategia de lanzamiento |
 | **Administración (externa)** | Obligaciones fiscales y laborales | Gestoría externa |
+
+### Análisis del Sector y Organización Empresarial
+
+Para contextualizar el desarrollo de "By Me Too!", es necesario analizar el sector en el que operará la futura empresa y su estructura interna.
+
+#### Clasificación del Sector IT
+El sector de las Tecnologías de la Información (TIC) se divide principalmente en tres modelos organizativos:
+1. **Consultoras y factorías de software (Servicios a terceros):** Desarrollan proyectos a medida para otras empresas (ej. Accenture, Indra).
+2. **Agencias Digitales:** Enfocadas en marketing y desarrollo web corporativo.
+3. **Empresas de Producto (Nuestro modelo):** Desarrollan, mantienen y comercializan un software propio (SaaS o aplicaciones móviles) asumiendo el riesgo técnico y financiero. "By Me Too!" nace bajo este paradigma, buscando captar usuarios finales y monetizar mediante licencias *Freemium* y publicidad.
+
+#### Estructura Organizativa Tipo
+Una empresa tecnológica estándar dedicada al desarrollo de producto cuenta con los siguientes departamentos:
+* **Dirección / CEO:** Estrategia de negocio, alianzas y búsqueda de inversores.
+* **Departamento Técnico (CTO / Desarrollo):** Ingeniería de software, arquitectura de sistemas y administración de bases de datos.
+* **Calidad (QA):** Testing manual y automatizado (pruebas E2E, de integración y unitarias).
+* **Diseño y Producto (UX/UI):** Análisis de usabilidad y diseño de interfaces.
+* **Marketing y Ventas:** Captación de usuarios (ASO, SEO, campañas publicitarias) y retención.
+
+Para la fase inicial del proyecto "By Me Too!", la estructura se adapta al marco de trabajo **Scrum**, condensando estos departamentos en los roles de *Product Owner*, *Scrum Master* y el *Equipo de Desarrollo*.
