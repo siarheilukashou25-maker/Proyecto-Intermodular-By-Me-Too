@@ -48,7 +48,6 @@ By Me Too! adopta la estructura de una **startup de software** con metodología 
 
 | rol | Funciones principales | Evidencia en el proyecto |
 |---|---|---|
-| **Dirección / Product Owner** | Definir visión, priorizar backlog y validar entregas | Project «By Me Too!», encuesta de mercado |
 | **Scrum Master** | Facilitar ceremonias y eliminar bloqueos | 8 sprints planificados en el Project |
 | **Diseño UX/UI** | Investigación de usuario y prototipado | Wireframe, Figma y Base44 |
 | **Desarrollo front-end** | Construcción de la interfaz | `LoginWindow` y `MainWindow` |
