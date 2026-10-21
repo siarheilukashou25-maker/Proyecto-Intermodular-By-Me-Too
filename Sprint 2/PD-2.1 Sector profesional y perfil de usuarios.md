@@ -93,16 +93,35 @@ La app no se dirige a empresas, sino a particulares:
 ---
 
 ## 2.1.2. Segmentación de perfiles de usuario
-
+ 
 **Segmentar** es dividir a los usuarios en grupos con necesidades parecidas. Cada grupo se describe con una **ficha de persona**:
-
-- **User Persona** ("persona de usuario"): personaje ficticio, pero basado en datos reales, que representa a un tipo de usuario: qué hace, qué sabe y qué quiere conseguir con la app.
-- **Buyer Persona** ("persona compradora"): lo mismo, pero centrado en quién decide adquirir o adoptar el producto. En *By Me Too!* (gratuita) quien "adopta" la app y convence al grupo es la Ficha 1.
-
+ 
+- **User Persona** ("persona de usuario"): personaje ficticio, pero basado en datos reales, que representa a **quien usa** la app: qué hace con ella, dónde, cuándo y qué le cuesta. Sirve para diseñar pantallas, flujos y controles.
+- **Buyer Persona** ("persona compradora"): personaje que representa a **quien decide pagar** por el producto: qué le convence, cuánto está dispuesto a pagar y qué le frena. Sirve para el modelo de negocio y el marketing.
+Ambas coinciden solo cuando quien usa y quien paga es la misma persona. En un software de empresa (B2B) suelen ser distintas: lo compra un directivo y lo usa un empleado.
+ 
+**Modelo de negocio de *By Me Too!*: freemium.** *Freemium* (de *free*, "gratis", y *premium*) es un modelo en el que la app es gratuita para todos y existe una suscripción opcional de pago con ventajas extra. Por tanto:
+ 
+- **Todos los perfiles son User Persona**, porque todos usan la app, paguen o no.
+- **Solo una parte es además Buyer Persona**: quien decide pagar la suscripción premium.
+> Nota: la Memoria (1.6.1) excluye los pagos *entre miembros* dentro de la app (las deudas se saldan por Bizum, efectivo o transferencia). La suscripción premium es otra cosa: es el pago del usuario a *By Me Too!*.
+ 
+**Plan gratuito y plan premium (propuesta del equipo):**
+ 
+| | Gratuito | Premium |
+| --- | --- | --- |
+| Grupos | Número limitado (propuesta: hasta 2 grupos activos) | Más grupos (propuesta: ilimitados) |
+| Anuncios | Sí | **Sin anuncios** |
+| Escaneo de tiques por **OCR** (*Optical Character Recognition*, "reconocimiento óptico de caracteres": la app lee el texto de una foto del tique) | No | Sí (**versión futura**, Memoria 1.6.1) |
+| Lista compartida, reparto y saldos | Sí | Sí |
+| **Precio propuesto** | 0 € | **1,99 €/mes o 14,99 €/año** (≈ 37 % de ahorro con el pago anual) |
+ 
+*Justificación del precio.* Es una **propuesta propia del equipo**, no un dato de mercado. Se basa en que: (1) el público principal son estudiantes y jóvenes recién titulados (**[Encuesta]** 70 %), con poco presupuesto; (2) el competidor directo Splitwise también usa un modelo freemium con suscripción mensual o anual que elimina anuncios y añade escaneo de tiques, y limita el plan gratuito a 4 gastos al día [14], [15]; (3) Tricount es totalmente gratuito y sin anuncios [6], así que el premium debe ser barato para que el plan gratuito con anuncios no haga huir al usuario hacia la competencia. El precio exacto de Splitwise Pro no aparece en sus páginas públicas, por lo que no se usa como cifra de comparación. El precio se validará con el grupo piloto (Memoria, OE-X5).
+ 
 Las fichas son **arquetipos** (modelos representativos de un grupo, no personas reales); los nombres y detalles personales son inventados. Se basan en la encuesta (80 % entre 19 y 40 años; 70 % estudiantes o recién titulados) y en los grupos detectados en la memoria (1.2.4): compañeros de piso, familias y grupos de eventos.
-
-### Ficha 1 — "La organizadora del piso" (usuaria principal y Buyer Persona)
-
+ 
+### Ficha 1 — "La organizadora del piso" (User Persona principal + Buyer Persona)
+ 
 | Campo | Descripción |
 | --- | --- |
 | **Nombre / edad** | Lucía, 22 años |
@@ -112,9 +131,10 @@ Las fichas son **arquetipos** (modelos representativos de un grupo, no personas 
 | **Objetivos principales** | 1) Llevar la lista completa y no olvidar productos. 2) Registrar la compra en menos de un minuto. 3) Marcar qué es común y qué es personal. 4) Recuperar su dinero sin tener que reclamarlo en persona. |
 | **Frustraciones** | Mensajes dispersos en el chat, productos duplicados, cálculos con la calculadora, incomodidad al pedir dinero. |
 | **Frase** | "Yo pago todo y luego nunca sé cuánto me debe cada uno." |
-
+| **Como Buyer Persona** | **Compradora probable del premium.** Es quien descubre la app y convence al grupo. Motivos para pagar: quitar los anuncios, que abre a diario, y, en el futuro, el OCR para no teclear tiques largos. Freno: presupuesto de estudiante; solo paga si el precio es bajo (pago anual) y la ventaja se nota desde el primer día. |
+ 
 ### Ficha 2 — "El compañero que paga" (usuario participante)
-
+ 
 | Campo | Descripción |
 | --- | --- |
 | **Nombre / edad** | Andrés, 29 años |
@@ -124,9 +144,10 @@ Las fichas son **arquetipos** (modelos representativos de un grupo, no personas 
 | **Objetivos principales** | 1) Añadir rápido a la lista lo que necesita. 2) Saber de un vistazo cuánto debe y a quién. 3) Entender por qué debe esa cantidad. 4) Saldar la deuda sin discusiones. |
 | **Frustraciones** | Pagar productos que no consume, recordatorios insistentes, pantallas cargadas de información. |
 | **Frase** | "Dime cuánto es y te hago un Bizum." |
-
-### Ficha 3 — "La organizadora del evento" (usuaria ocasional)
-
+| **Como Buyer Persona** | **No es comprador.** Abre la app poco y no necesita más grupos, así que no pagaría. Es importante que el plan gratuito le resulte cómodo: si los anuncios le molestan, deja de usarla y el grupo entero se resiente. |
+ 
+### Ficha 3 — "La organizadora del evento" (User Persona ocasional + Buyer Persona)
+ 
 | Campo | Descripción |
 | --- | --- |
 | **Nombre / edad** | Marta, 38 años |
@@ -136,7 +157,8 @@ Las fichas son **arquetipos** (modelos representativos de un grupo, no personas 
 | **Objetivos principales** | 1) Crear el grupo e invitar a todos en segundos (enlace por WhatsApp). 2) Repartir ciertos productos solo entre quienes los consumen (por ejemplo, bebidas alcohólicas o menú infantil). 3) Cerrar el evento con todos los saldos a cero. |
 | **Frustraciones** | Que los invitados tengan que registrarse con muchos pasos; perder la cuenta de varios tiques; repartos "a partes iguales" que no son justos. |
 | **Frase** | "Quiero cerrar las cuentas del cumpleaños el mismo día." |
-
+| **Como Buyer Persona** | **Compradora posible.** Tiene más poder adquisitivo y crea muchos grupos temporales (cada evento es un grupo), por lo que choca antes con el límite de grupos del plan gratuito. Motivo para pagar: más grupos y, en el futuro, el OCR para los varios tiques de un evento. Freno: uso intermitente; prefiere un pago mensual que pueda cancelar cuando no organiza nada. |
+ 
 ---
 
 ## 2.1.3. Implicaciones para el diseño de la interfaz
