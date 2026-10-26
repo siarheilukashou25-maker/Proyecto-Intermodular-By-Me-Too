@@ -117,7 +117,7 @@ Que una aplicación sea gratuita para el usuario no significa que su desarrollo 
 
 ## Comparación de usabilidad
 
-Las cuatro alternativas estudiadas permiten registrar gastos y consultar el resultado de los repartos. Por ello, By Me Too! no debería diferenciarse únicamente por ofrecer estas mismas funciones. La oportunidad consiste en estudiar cómo facilitar una tarea concreta: organizar las compras que comparten las personas de una vivienda y conocer con claridad cómo se distribuye su coste.
+Las cuatro aplicaciones analizadas permiten registrar gastos y ver cómo se reparten entre varias personas. Por eso, By Me Too! no puede destacar solo por ofrecer estas mismas funciones. La idea es centrarse en hacer más fácil la organización de las compras compartidas en una vivienda y que todos puedan entender cuánto les corresponde pagar.
 
 Para conseguirlo, se propone priorizar:
 
