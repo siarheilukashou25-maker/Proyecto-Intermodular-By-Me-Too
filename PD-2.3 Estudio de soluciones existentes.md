@@ -104,7 +104,6 @@ Para comparar las alternativas se han utilizado criterios relacionados con el co
 | **Extensibilidad** | Depende de las opciones de la plataforma. | Depende de las funciones del servicio. | Depende de las funciones de la aplicación. | Código abierto: puede modificarse y mantenerse. | Se valorará una estructura que facilite añadir funciones. |
 | **Limitaciones** | Límites gratuitos y funciones avanzadas de pago. | Orientación general al reparto de gastos. | Enfoque reducido al reparto y control de gastos. | El despliegue propio requiere conocimientos técnicos. | Las funciones y la experiencia aún no están validadas. |
 
-> **Nota:** La curva de aprendizaje y la experiencia de usuario son valoraciones cualitativas basadas en el enfoque y las funciones descritas por cada producto, no en una prueba de usabilidad realizada por nuestro equipo. Los precios y las condiciones comerciales pueden cambiar.
 
 ### Comparación del coste de implantación
 
