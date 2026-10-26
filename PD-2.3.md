@@ -1,4 +1,4 @@
-# DI 2.3 — Análisis comparativo de mercado (benchmarking)
+# PD-2.3 — Análisis comparativo de mercado (benchmarking)
 
 **Proyecto:** By Me Too! / Comprame!
 
