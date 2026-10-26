@@ -132,9 +132,7 @@ Estas decisiones deberán comprobarse mediante pruebas con usuarios cuando exist
 
 ## 3. Justificación de la propuesta y ventajas competitivas
 
-El análisis muestra que ya existen aplicaciones maduras para dividir gastos. Por tanto, no sería correcto afirmar que By Me Too! es la primera aplicación que permite registrar compras compartidas, crear grupos o calcular deudas.
-
-La propuesta de valor debe centrarse en la experiencia que se pretende ofrecer a las personas que comparten vivienda y realizan compras para el hogar.
+El análisis realizado demuestra que ya existen aplicaciones consolidadas para gestionar gastos compartidos. Por ello, By Me Too! no pretende ser la primera aplicación que permite registrar compras, crear grupos o calcular deudas, sino ofrecer una experiencia más adaptada a las necesidades de las personas que comparten vivienda y realizan compras para el hogar.
 
 ### Ventaja 1. Enfoque en las compras domésticas
 
