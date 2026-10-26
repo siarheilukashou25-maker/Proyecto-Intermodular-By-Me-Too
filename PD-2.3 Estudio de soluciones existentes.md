@@ -111,7 +111,6 @@ Es importante distinguir entre el coste que asume una persona usuaria y el coste
 
 - **Aplicaciones comerciales:** Splitwise, tricount y Splid permiten utilizar sus servicios sin desplegar un servidor propio, aunque pueden incluir límites o compras dentro de la aplicación.
 - **Software de código abierto:** Spliit permite estudiar y desplegar el código, pero una instalación propia puede implicar gastos de alojamiento, base de datos, dominio, mantenimiento y administración.
-- **By Me Too! / Comprame!:** al tratarse de un proyecto en desarrollo, todavía no se puede establecer un coste definitivo. Será necesario valorar el tiempo de programación, las pruebas, la infraestructura y el mantenimiento.
 
 Que una aplicación sea gratuita para el usuario no significa que su desarrollo y mantenimiento no tengan costes.
 
