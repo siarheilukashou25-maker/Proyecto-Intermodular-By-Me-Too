@@ -101,6 +101,13 @@ Es posible:
 * Acceder desde una tarea a la documentación o archivos relacionados.
 
 ---
+### 📅 Calendario de Tareas
+La distribuición y planificación se esncuentra en un calendario de Google Calendar en el que cada integrante ha añadido el tiempo específico que le dedica a cada tarea por día.
+<img width="1541" height="911" alt="imagen" src="https://github.com/user-attachments/assets/33f8d21e-d344-4d2f-8148-906a31d6c885" />
+
+
+Enlace: [Calendario](https://calendar.google.com/calendar/u/0?cid=Y19hMzFjNmQzYjNiN2Q2YzUzZjQ4MjcwYWI3NDQyMzA3MTZkNTFlYWI0NDE1ZTY3MzY0NWQ2ZTQ5YWRhMGYyYWE1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+---
 
 ## 📚 Estructura general
 
