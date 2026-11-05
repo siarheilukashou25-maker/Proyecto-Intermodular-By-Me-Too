@@ -32,3 +32,18 @@ Son aquellas personas o entidades que no participan directamente en el desarroll
 - **Centros educativos y profesorado:** responsables de supervisar, evaluar y orientar el desarrollo del proyecto intermodular.
 - **Empresas colaboradoras:** posibles organizaciones interesadas en colaborar en el desarrollo, mantenimiento o difusión de la aplicación.
 - **Personas con necesidades de accesibilidad:** usuarios que pueden necesitar opciones de accesibilidad para utilizar la aplicación correctamente.
+
+## 2.4.2. Análisis de poder e interés
+
+Una vez identificadas las partes interesadas, se analiza su capacidad para influir en las decisiones del proyecto y el interés que tienen en su desarrollo.
+
+Para ello, se utiliza una matriz de poder e interés que permite establecer cómo debe comunicarse el equipo con cada grupo.
+
+Se consideran los siguientes niveles:
+
+- **Poder alto:** tienen capacidad para tomar decisiones importantes o modificar el rumbo del proyecto.
+- **Poder medio:** pueden influir en determinadas decisiones o aportar información relevante.
+- **Poder bajo:** tienen poca capacidad para intervenir en las decisiones.
+- **Interés alto:** están directamente implicados o se benefician especialmente del resultado.
+- **Interés medio:** tienen cierta implicación o interés en el funcionamiento del proyecto.
+- **Interés bajo:** su relación con el proyecto es indirecta.
