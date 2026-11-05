@@ -18,6 +18,7 @@ Son aquellas personas que participan directamente en la planificación, desarrol
 - **Responsable del proyecto(Scrum Master):** encargado de organizar las tareas, establecer prioridades y supervisar que se cumplan los objetivos.
 - **Diseñadores de interfaz (UI/UX):** responsables de crear una aplicación sencilla, intuitiva y accesible.
 - **Responsables de pruebas y calidad(QA):** encargados de comprobar que la aplicación funciona correctamente y detectar posibles errores.
+- **Desarrolladores del backend:** encargados de del desarrollo de la lógica de la aplicacion.
 
 ### B. Partes interesadas externas
 
