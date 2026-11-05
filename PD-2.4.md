@@ -58,3 +58,16 @@ Se consideran los siguientes niveles:
 | Clientes potenciales | Externo | Disponer de una aplicación útil y fácil de utilizar. | Bajo | Medio | Cuestionarios y difusión de información. |
 | Profesorado y centro educativo | Externo | Supervisar el proyecto y comprobar que cumple los objetivos académicos. | Alto | Alto | Entregas periódicas, tutorías y presentaciones. |
 | Personas con necesidades de accesibilidad | Externo | Poder utilizar la aplicación sin barreras de acceso o comprensión. | Bajo | Alto | Pruebas de accesibilidad y recogida de sugerencias. |
+
+### Clasificación de la matriz según poder e interés
+
+Para interpretar mejor la matriz, los interesados pueden agruparse en cuatro categorías:
+
+| Categoría | Grupos identificados | Estrategia |
+|---|---|---|
+| Poder alto / Interés alto | Equipo de desarrollo, responsable del proyecto, dirección y profesorado. | Gestionar de cerca mediante reuniones y seguimiento continuo. |
+| Poder alto / Interés medio | Organismos de protección de datos. | Mantener satisfechos y consultar cuando sea necesario. |
+| Poder medio / Interés alto | Usuarios finales, compañeros de piso, diseñadores y responsables de pruebas. | Mantener informados y recoger sus opiniones. |
+| Poder bajo / Interés medio o alto | Clientes potenciales y personas con necesidades de accesibilidad. | Mantener informados y facilitar su participación. |
+| Poder medio / Interés medio o bajo | Proveedores tecnológicos, proveedores de pago y empresas colaboradoras. | Mantener una comunicación puntual según las necesidades. |
+
