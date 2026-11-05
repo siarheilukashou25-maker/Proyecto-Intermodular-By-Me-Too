@@ -27,8 +27,6 @@ Son aquellas personas o entidades que no participan directamente en el desarroll
 - **Usuarios finales:** personas que comparten vivienda y utilizan la aplicación para organizar sus compras y gastos comunes.
 - **Compañeros de piso y familiares:** personas que forman parte de los grupos de gastos y participan en el reparto de los costes.
 - **Clientes potenciales:** personas interesadas en utilizar la aplicación en el futuro.
-- **Proveedores tecnológicos:** empresas que proporcionan servicios de alojamiento, almacenamiento, bases de datos u otras herramientas necesarias.
-- **Proveedores de servicios de pago:** entidades que podrían intervenir si en futuras versiones se incorporan pagos o transferencias.
 - **Centros educativos y profesorado:** responsables de supervisar, evaluar y orientar el desarrollo del proyecto intermodular.
 - **Personas con necesidades de accesibilidad:** usuarios que pueden necesitar opciones de accesibilidad para utilizar la aplicación correctamente.
 
@@ -55,14 +53,8 @@ Se consideran los siguientes niveles:
 | Responsable del proyecto | Interno | Cumplir los objetivos, plazos y organizar el trabajo. | Alto | Alto | Comunicación continua y revisión del progreso. |
 | Diseñadores UI/UX | Interno | Crear una interfaz sencilla, intuitiva y accesible. | Medio | Alto | Reuniones de diseño y revisión de prototipos. |
 | Responsables de pruebas y calidad | Interno | Detectar errores y garantizar el correcto funcionamiento. | Medio | Alto | Informes de pruebas y comunicación de incidencias. |
-| Administradores del sistema | Interno | Garantizar la seguridad y disponibilidad de la aplicación. | Medio | Alto | Revisiones técnicas y documentación. |
-| Dirección o responsables empresariales | Interno | Conseguir que el proyecto cumpla sus objetivos y sea viable. | Alto | Alto | Informes de seguimiento y reuniones de decisiones. |
 | Usuarios finales | Externo | Registrar compras, organizar gastos y conocer cuánto debe pagar cada persona. | Medio | Alto | Encuestas, pruebas de usabilidad y recogida de opiniones. |
 | Compañeros de piso y familiares | Externo | Repartir correctamente los gastos comunes y personales. | Medio | Alto | Entrevistas y pruebas con grupos de usuarios. |
 | Clientes potenciales | Externo | Disponer de una aplicación útil y fácil de utilizar. | Bajo | Medio | Cuestionarios y difusión de información. |
-| Proveedores tecnológicos | Externo | Ofrecer sus servicios y mantener una relación comercial estable. | Medio | Medio | Comunicación contractual y soporte técnico. |
-| Proveedores de servicios de pago | Externo | Garantizar una integración segura si se incorporan pagos. | Medio | Bajo | Comunicación técnica cuando se necesite su servicio. |
-| Organismos de protección de datos | Externo | Garantizar el cumplimiento de la normativa de privacidad. | Alto | Medio | Consulta de normativa y revisión del cumplimiento legal. |
 | Profesorado y centro educativo | Externo | Supervisar el proyecto y comprobar que cumple los objetivos académicos. | Alto | Alto | Entregas periódicas, tutorías y presentaciones. |
-| Empresas colaboradoras | Externo | Encontrar oportunidades de colaboración y aportar valor al proyecto. | Medio | Medio | Reuniones y propuestas de colaboración. |
 | Personas con necesidades de accesibilidad | Externo | Poder utilizar la aplicación sin barreras de acceso o comprensión. | Bajo | Alto | Pruebas de accesibilidad y recogida de sugerencias. |
