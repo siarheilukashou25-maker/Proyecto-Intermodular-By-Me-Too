@@ -71,3 +71,12 @@ Para interpretar mejor la matriz, los interesados pueden agruparse en cuatro cat
 | Poder bajo / Interés medio o alto | Clientes potenciales y personas con necesidades de accesibilidad. | Mantener informados y facilitar su participación. |
 | Poder medio / Interés medio o bajo | Proveedores tecnológicos, proveedores de pago y empresas colaboradoras. | Mantener una comunicación puntual según las necesidades. |
 
+## Conclusión
+
+El análisis de las partes interesadas permite identificar quiénes pueden influir en el desarrollo de By Me Too! y quiénes se beneficiarán de su implantación.
+
+Los grupos más importantes son el equipo de desarrollo, el responsable del proyecto, el profesorado y los usuarios finales. Los primeros tienen una influencia directa en las decisiones y en el resultado de la aplicación, mientras que los usuarios son fundamentales para comprobar que realmente responde a sus necesidades.
+
+Por este motivo, se dará prioridad a mantener una comunicación continua con el equipo de desarrollo y a recoger las opiniones de los usuarios mediante encuestas y pruebas de usabilidad. De esta manera, se podrán detectar problemas, introducir mejoras y conseguir que By Me Too! sea una aplicación útil, sencilla y accesible.
+
+
