@@ -50,7 +50,7 @@ tricount es una aplicación para gestionar gastos compartidos entre amigos, pare
 
 ### 3. Splid
 
-**Página oficial:** https://splid.teamturtle.com/
+**Página oficial:** https://splid.app/english
 
 Splid es una aplicación centrada en simplificar el reparto de gastos entre varias personas. Permite crear grupos, registrar pagos, dividir importes de manera equitativa o personalizada y calcular las cantidades que debe cada participante. También admite el uso sin conexión, diferentes monedas y la exportación de resúmenes, aunque algunas opciones pueden requerir una compra dentro de la aplicación.
 
