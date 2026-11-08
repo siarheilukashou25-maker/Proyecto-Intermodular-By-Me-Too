@@ -1,116 +1,63 @@
-# 2.4. Identificación y análisis de las partes interesadas de By Me Too!
+# 2.4. Mapeo de las partes interesadas
+
+El objetivo de este apartado es identificar a todas las personas, grupos y entidades que pueden influir en el desarrollo o verse afectados por su implantación.
+
+Para ello, se diferencian las partes interesadas internas y externas y se analiza su nivel de poder e interés, con el fin de establecer una estrategia de comunicación adecuada para cada grupo.
 
 ## 2.4.1. Identificación de las partes interesadas
 
-El proyecto **By Me Too!** consiste en desarrollar una aplicación móvil y de escritorio destinada a facilitar la organización de las compras y los gastos compartidos entre personas que conviven en una misma vivienda.
+Las partes interesadas se clasifican en dos grupos:
 
-La aplicación busca que los usuarios puedan registrar las compras comunes, organizar los gastos y conocer de forma clara cómo se distribuye el dinero entre los integrantes del grupo.
+### Partes interesadas internas
 
-Para llevar a cabo el proyecto, es necesario identificar a las personas y entidades que pueden influir en su desarrollo o verse afectadas por su funcionamiento.
-
-Se distinguen dos grandes grupos:
-
-### A. Partes interesadas internas
-
-Son aquellas personas que participan directamente en la planificación, desarrollo y puesta en marcha del proyecto.
+Son aquellas personas que participan directamente en la organización y desarrollo del proyecto.
 
 - **Equipo de desarrollo:** responsables de diseñar, programar, probar y mantener la aplicación.
-- **Responsable del proyecto (Scrum Master):** encargado de organizar las tareas, establecer prioridades y supervisar el cumplimiento de los objetivos.
-- **Diseñadores de interfaz (UI/UX):** responsables de crear una aplicación sencilla, intuitiva y accesible.
-- **Responsables de pruebas y calidad (QA):** encargados de comprobar que la aplicación funciona correctamente y detectar posibles errores.
+- **Responsables de organización del proyecto:** encargados de coordinar las tareas, establecer prioridades y realizar el seguimiento del trabajo.
 
-### B. Partes interesadas externas
+### Partes interesadas externas
 
-Son aquellas personas o entidades que no participan directamente en el desarrollo, pero que pueden utilizar la aplicación o verse afectadas por ella.
+Son aquellas personas o entidades que no forman parte del equipo de desarrollo, pero que pueden influir en el proyecto o verse afectadas por sus resultados.
 
-- **Usuarios finales:** personas que comparten vivienda, como compañeros de piso, familiares o parejas, y que utilizan la aplicación para organizar las compras y los gastos comunes. Todos ellos forman parte del mismo grupo de usuarios, por lo que no es necesario diferenciarlos como partes interesadas independientes.
-- **Clientes potenciales:** personas que podrían estar interesadas en utilizar la aplicación en el futuro.
-- **Centros educativos y profesorado:** responsables de supervisar, evaluar y orientar el desarrollo del proyecto intermodular.
-- **Personas con necesidades de accesibilidad:** usuarios que pueden necesitar determinadas opciones para utilizar la aplicación sin dificultades.
-- **Organismos de protección de datos:** entidades encargadas de supervisar el cumplimiento de la normativa sobre protección de datos personales, como la Agencia Española de Protección de Datos (AEPD).
+- **Personas encuestadas:** personas que han participado en las encuestas iniciales y han aportado información sobre sus necesidades y preferencias. Forman parte del grupo de usuarios potenciales.
+- **Organismos de protección de datos:** entidades como la Agencia Española de Protección de Datos (AEPD), encargadas de supervisar el cumplimiento de la normativa sobre privacidad y protección de datos personales.
+- **Centro educativo y docente:** responsables de supervisar y evaluar el desarrollo del proyecto y comprobar que cumple los objetivos académicos.
 
 ## 2.4.2. Análisis de poder e interés
 
-Una vez identificadas las partes interesadas, se analiza su capacidad para influir en las decisiones del proyecto y el interés que tienen en su desarrollo.
+Para analizar las partes interesadas se utiliza la matriz de poder e interés, una herramienta habitual en la gestión de proyectos.
 
-Para ello, se utiliza una matriz de poder e interés que permite establecer cómo debe comunicarse el equipo con cada grupo.
+Se tienen en cuenta dos aspectos:
 
-Se consideran los siguientes niveles:
+- **Poder o influencia:** capacidad que tiene una persona o entidad para influir en las decisiones o condicionar el desarrollo del proyecto.
+- **Interés:** grado de implicación o importancia que tiene el proyecto para esa persona o entidad.
 
-- **Poder alto:** tienen capacidad para tomar decisiones importantes o influir considerablemente en el proyecto.
-- **Poder medio:** pueden influir en determinadas decisiones o aportar información relevante.
-- **Poder bajo:** tienen poca capacidad para intervenir directamente en las decisiones.
-- **Interés alto:** están directamente implicados o se benefician especialmente del resultado.
-- **Interés medio:** tienen cierta relación o interés en el funcionamiento del proyecto.
-- **Interés bajo:** su relación con el proyecto es indirecta.
+A partir de estos dos aspectos se establecen cuatro estrategias:
+
+- **Gestionar de cerca (Poder alto / Interés alto):** mantener una comunicación continua e involucrar en las decisiones.
+- **Mantener satisfechos (Poder alto / Interés bajo):** proporcionar información relevante y atender sus necesidades, sin mantener una comunicación excesiva.
+- **Mantener informados (Poder bajo / Interés alto):** compartir novedades, recoger opiniones y permitir su participación.
+- **Supervisar (Poder bajo / Interés bajo):** realizar un seguimiento periódico y comunicar los cambios importantes cuando sea necesario.
 
 ### Matriz de interesados (Poder vs. Interés)
 
-| Rol / Grupo | Tipo | Expectativas principales | Nivel de influencia | Nivel de interés | Estrategia de comunicación recomendada |
+| Rol / Grupo | Tipo | Expectativas principales | Poder / Influencia | Interés | Estrategia de comunicación recomendada |
 |---|---|---|---|---|---|
-| Equipo de desarrollo | Interno | Desarrollar una aplicación funcional, estable y segura. | Alto | Alto | Reuniones periódicas y seguimiento de tareas. |
-| Responsable del proyecto | Interno | Cumplir los objetivos, organizar el trabajo y controlar los plazos. | Alto | Alto | Comunicación continua y revisión del progreso. |
-| Diseñadores UI/UX | Interno | Crear una interfaz sencilla, intuitiva y accesible. | Medio | Alto | Reuniones de diseño y revisión de prototipos. |
-| Responsables de pruebas y calidad | Interno | Detectar errores y garantizar el correcto funcionamiento. | Medio | Alto | Informes de pruebas y comunicación de incidencias. |
-| Usuarios finales | Externo | Organizar las compras, registrar gastos y conocer cuánto debe aportar cada integrante. | Medio | Alto | Encuestas, entrevistas y pruebas de usabilidad. |
-| Clientes potenciales | Externo | Disponer de una aplicación útil y fácil de utilizar. | Bajo | Medio | Cuestionarios y difusión de información. |
-| Profesorado y centro educativo | Externo | Supervisar el proyecto y comprobar que cumple los objetivos académicos. | Alto | Alto | Entregas periódicas, tutorías y presentaciones. |
-| Personas con necesidades de accesibilidad | Externo | Poder utilizar la aplicación sin barreras de acceso o comprensión. | Bajo | Alto | Pruebas de accesibilidad y recogida de sugerencias. |
-| Organismos de protección de datos | Externo | Garantizar que se respeta la normativa de protección de datos personales. | Alto | Bajo | Cumplir la normativa y consultar sus orientaciones cuando sea necesario. |
+| Equipo de desarrollo | Interno | Desarrollar correctamente la aplicación y cumplir los objetivos establecidos. | Alto | Alto | Gestionar de cerca mediante reuniones y seguimiento de tareas. |
+| Personas encuestadas | Externo | Que sus necesidades y opiniones se tengan en cuenta en el diseño de la aplicación. | Bajo | Alto | Mantener informados y aprovechar sus respuestas para mejorar el proyecto. |
+| Organismos de protección de datos (AEPD) | Externo | Garantizar el cumplimiento de la normativa de privacidad y protección de datos personales. | Alto | Medio | Mantener satisfechos, revisar la normativa y consultar sus recomendaciones cuando sea necesario. |
+| Centro educativo y docente | Externo | Que el proyecto cumpla los objetivos académicos y los requisitos establecidos. | Alto | Alto | Gestionar de cerca mediante entregas, revisiones y reuniones de seguimiento. |
 
-### Clasificación de la matriz según poder e interés
-
-Para interpretar mejor la matriz, los interesados pueden agruparse en cuatro categorías:
-
-| Categoría | Grupos identificados | Estrategia |
-|---|---|---|
-| Poder alto / Interés alto | Equipo de desarrollo, responsable del proyecto y profesorado. | Gestionar de cerca mediante reuniones y seguimiento continuo. |
-| Poder alto / Interés bajo | Organismos de protección de datos. | Mantener satisfechos, cumplir la normativa y revisar sus recomendaciones. |
-| Poder medio / Interés alto | Usuarios finales, diseñadores y responsables de pruebas. | Mantener informados y recoger sus opiniones. |
-| Poder bajo / Interés medio o alto | Clientes potenciales y personas con necesidades de accesibilidad. | Mantener informados y facilitar su participación. |
-
-## 2.4.3. Investigación y comparación con otros proyectos
-
-Para comprender mejor la finalidad de By Me Too!, se han investigado otras aplicaciones que ofrecen servicios relacionados con la organización y el reparto de gastos compartidos.
-
-Entre ellas destacan **Splitwise** y **tricount**, dos herramientas que permiten registrar gastos y calcular cuánto debe aportar cada integrante de un grupo.
-
-### Splitwise
-
-Splitwise es una aplicación destinada a dividir gastos entre amigos, familiares y compañeros de piso. Permite crear grupos, registrar quién ha pagado cada gasto y calcular los saldos pendientes entre sus integrantes.
-
-También ofrece diferentes formas de repartir los gastos, como cantidades iguales, porcentajes o importes personalizados.
-
-### tricount
-
-tricount permite organizar gastos compartidos en diferentes situaciones, como viajes, parejas y viviendas compartidas. Los usuarios pueden registrar compras, indicar quién ha pagado y quién participa en cada gasto.
-
-Además, permite adjuntar fotografías de los recibos, consultar los balances del grupo y gestionar los reembolsos pendientes.
-
-### Comparación con By Me Too!
-
-| Aspecto | Splitwise | tricount | By Me Too! |
-|---|---|---|---|
-| Registro de gastos | Sí | Sí | Sí |
-| Reparto de gastos | Sí | Sí | Sí |
-| Organización por grupos | Sí | Sí | Sí |
-| Orientación a viviendas compartidas | Sí | Sí | Sí |
-| Organización de compras comunes del hogar | Sí | Sí | Objetivo principal |
-| Plataforma móvil y de escritorio | Sí | Aplicación móvil y servicios web | Aplicación móvil y de escritorio |
-
-La comparación permite observar que ya existen aplicaciones que resuelven problemas similares. Por tanto, By Me Too! no pretende ser la primera herramienta para compartir gastos, sino ofrecer una solución centrada en facilitar la organización de las compras habituales de una vivienda.
-
-Su objetivo es que las personas que conviven puedan llevar un control más claro de las compras comunes, conocer cómo se distribuyen los costes y evitar confusiones a la hora de organizar el dinero del hogar.
-
-Esta investigación también ayuda a identificar qué esperan los usuarios de este tipo de aplicaciones: facilidad de uso, claridad en los cálculos, organización de los gastos y transparencia entre los integrantes del grupo.
 
 ## Conclusión
 
-El análisis de las partes interesadas permite identificar quiénes pueden influir en el desarrollo de By Me Too! y quiénes se beneficiarán de su funcionamiento.
+El análisis permite identificar qué grupos tienen mayor capacidad de influir en el desarrollo de By Me Too! y cuáles tienen un mayor interés en utilizar la aplicación.
 
-Los grupos más importantes son los usuarios finales, el equipo de desarrollo y el profesorado. Los usuarios tienen un papel fundamental, ya que sus necesidades y opiniones permiten comprobar si la aplicación realmente facilita la organización de las compras y los gastos compartidos.
+Los usuarios finales son especialmente importantes porque sus necesidades y opiniones permiten orientar las funcionalidades de la aplicación. Aunque tienen poca capacidad para tomar decisiones sobre el desarrollo, su participación es fundamental para conseguir que el producto sea útil y fácil de utilizar.
 
-Además, la comparación con Splitwise y tricount demuestra que existen otras soluciones en el mercado. Por ello, By Me Too! debe centrarse en ofrecer una experiencia sencilla y orientada a la gestión de las compras habituales de una vivienda.
+Por otro lado, el equipo de desarrollo y el centro educativo tienen una influencia elevada, ya que participan en las decisiones y en el seguimiento del proyecto.
 
-Por último, también será importante garantizar la protección de los datos personales y la accesibilidad de la aplicación, para que pueda ser utilizada de forma segura y sencilla por diferentes tipos de usuarios.
+También es necesario tener en cuenta a los proveedores tecnológicos, las plataformas de distribución y los organismos de protección de datos, puesto que pueden establecer condiciones que afecten al funcionamiento, publicación y cumplimiento legal de la aplicación.
+
+Por último, se considera importante adaptar la comunicación a cada grupo, dedicando más atención a quienes tienen mayor influencia o interés en el proyecto.
 
