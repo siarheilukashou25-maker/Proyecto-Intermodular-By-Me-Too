@@ -79,4 +79,4 @@ Los grupos más importantes son el equipo de desarrollo, el responsable del proy
 
 Por este motivo, se dará prioridad a mantener una comunicación continua con el equipo de desarrollo y a recoger las opiniones de los usuarios mediante encuestas y pruebas de usabilidad. De esta manera, se podrán detectar problemas, introducir mejoras y conseguir que By Me Too! sea una aplicación útil, sencilla y accesible.
 
-
+Además, se tendrá en cuenta la importancia de proteger los datos personales y económicos de los usuarios, así como garantizar que la aplicación sea accesible y fácil de utilizar para personas con diferentes necesidades. Para ello, se realizarán pruebas y revisiones durante el desarrollo del proyecto.
