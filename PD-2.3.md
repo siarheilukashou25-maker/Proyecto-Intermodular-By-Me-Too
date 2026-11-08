@@ -202,4 +202,3 @@ Esta ventaja es, por ahora, una hipótesis de diseño. Para confirmarla, será n
 
 [8] Spliit, “Spliit: Open-source expense splitting application,” *GitHub repository*. [En línea]. Disponible en: https://github.com/spliit-app/spliit. [Accedido: 25-oct-2026].
 
-[9] By Me Too!, “Repositorio del proyecto By Me Too! / Comprame!,” *GitHub*. [En línea]. Disponible en: https://github.com/siarheilukashou25-maker/By-Me-Too. [Accedido: 25-oct-2026].
