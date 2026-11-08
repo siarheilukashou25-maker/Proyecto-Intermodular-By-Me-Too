@@ -61,3 +61,7 @@ También es necesario tener en cuenta a los proveedores tecnológicos, las plata
 
 Por último, se considera importante adaptar la comunicación a cada grupo, dedicando más atención a quienes tienen mayor influencia o interés en el proyecto.
 
+## Fuentes 
+
+[1]
+Pmi.org. Consultado: el 8 de noviembre de 2026. [En línea]. Disponible en: https://www.pmi.org/learning/library/stakeholder-analysis-pivotal-practice-projects-8905
