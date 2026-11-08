@@ -64,4 +64,4 @@ Por último, se considera importante adaptar la comunicación a cada grupo, dedi
 ## Fuentes 
 
 [1]
-Pmi.org. Consultado: el 8 de noviembre de 2026. [En línea]. Disponible en: https://www.pmi.org/learning/library/stakeholder-analysis-pivotal-practice-projects-8905
+Pmi.org. Consultado: el 6 de noviembre de 2026. [En línea]. Disponible en: https://www.pmi.org/learning/library/stakeholder-analysis-pivotal-practice-projects-8905
