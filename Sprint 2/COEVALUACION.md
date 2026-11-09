@@ -2,20 +2,20 @@
 Yo Siarhei
 | | Pablo | Roberto | Elias |
 |--|--|--|--|
-|Nota| 10 | 10 | 10 | 10 |
+|Nota| 10 | 10 | 10 |
 
 
 Yo Pablo
 | | Siarhei | Roberto | Elias |
 |--|--|--|--|
-|Nota| 10 | 10 | 10 |10 |
+|Nota| 10 | 10 | 10 |
 
 Yo Roberto
 | | Siarhei | Roberto | Elias |
 |--|--|--|--|
-|Nota|10  |10  |10  |10 |
+|Nota|10  |10  |10  |
 
 Yo Elías
 | | Pablo | Roberto | Siarhei |
 |--|--|--|--|
-|Nota|  |  |  | |
+|Nota|10  |10  |10  |
