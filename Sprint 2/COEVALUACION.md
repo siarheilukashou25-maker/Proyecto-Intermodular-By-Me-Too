@@ -1,4 +1,4 @@
 
 | | Pablo | Roberto | Siarhei | Elías |
 |--|--|--|--|--|
-|Nota|  | |  | 10| 
+|Nota|  |10 |  | 10| 
