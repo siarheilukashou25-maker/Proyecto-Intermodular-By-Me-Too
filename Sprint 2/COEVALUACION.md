@@ -8,7 +8,7 @@ Yo Siarhei
 Yo Pablo
 | | Siarhei | Roberto | Elias |
 |--|--|--|--|
-|Nota|  |  |  | |
+|Nota| 10 | 10 | 10 |10 |
 
 Yo Roberto
 | | Siarhei | Roberto | Elias |
